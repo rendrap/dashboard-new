@@ -1025,10 +1025,13 @@ li.ui-timepicker-selected,
 
 .circle {
   background: transparent;
-  border: 2px solid #989899fa;
+  border: 2px solid rgba(152, 152, 153, 0.13);
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  height: 130px;
+  width: 130px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
+
+.icon-grey {
+  color: #a3a4a6; }
