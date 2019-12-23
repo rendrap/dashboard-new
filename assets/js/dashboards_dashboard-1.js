@@ -1,48 +1,48 @@
 $(function() {
-  var chart1 = new Chart(document.getElementById('statistics-chart-1').getContext("2d"), {
-    type: 'line',
-    data: {
-      labels: ['2016-10', '2016-11', '2016-12', '2017-01', '2017-02', '2017-03', '2017-04', '2017-05'],
-      datasets: [{
-        label: 'Visits',
-        data: [93, 25, 95, 59, 46, 68, 4, 41],
-        borderWidth: 1,
-        backgroundColor: 'rgba(28,180,255,.05)',
-        borderColor: 'rgba(28,180,255,1)'
-      }, {
-        label: 'Returns',
-        data: [83, 1, 43, 28, 56, 82, 80, 66],
-        borderWidth: 1,
-        borderDash: [5, 5],
-        backgroundColor: 'rgba(136, 151, 170, 0.1)',
-        borderColor: '#8897aa'
-      }],
-    },
-    options: {
-      scales: {
-        xAxes: [{
-          gridLines: {
-            display: false
-          },
-          ticks: {
-            fontColor: '#aaa'
-          }
-        }],
-        yAxes: [{
-          gridLines: {
-            display: false
-          },
-          ticks: {
-            fontColor: '#aaa',
-            stepSize: 20
-          }
-        }]
-      },
+  // var chart1 = new Chart(document.getElementById('statistics-chart-1').getContext("2d"), {
+  //   type: 'line',
+  //   data: {
+  //     labels: ['2016-10', '2016-11', '2016-12', '2017-01', '2017-02', '2017-03', '2017-04', '2017-05'],
+  //     datasets: [{
+  //       label: 'Visits',
+  //       data: [93, 25, 95, 59, 46, 68, 4, 41],
+  //       borderWidth: 1,
+  //       backgroundColor: 'rgba(28,180,255,.05)',
+  //       borderColor: 'rgba(28,180,255,1)'
+  //     }, {
+  //       label: 'Returns',
+  //       data: [83, 1, 43, 28, 56, 82, 80, 66],
+  //       borderWidth: 1,
+  //       borderDash: [5, 5],
+  //       backgroundColor: 'rgba(136, 151, 170, 0.1)',
+  //       borderColor: '#8897aa'
+  //     }],
+  //   },
+  //   options: {
+  //     scales: {
+  //       xAxes: [{
+  //         gridLines: {
+  //           display: false
+  //         },
+  //         ticks: {
+  //           fontColor: '#aaa'
+  //         }
+  //       }],
+  //       yAxes: [{
+  //         gridLines: {
+  //           display: false
+  //         },
+  //         ticks: {
+  //           fontColor: '#aaa',
+  //           stepSize: 20
+  //         }
+  //       }]
+  //     },
 
-      responsive: false,
-      maintainAspectRatio: false
-    }
-  });
+  //     responsive: false,
+  //     maintainAspectRatio: false
+  //   }
+  // });
 
   var chart2 = new Chart(document.getElementById('statistics-chart-2').getContext("2d"), {
     type: 'line',
@@ -143,37 +143,37 @@ $(function() {
     }
   });
 
-  var chart5 = new Chart(document.getElementById('statistics-chart-5').getContext("2d"), {
-    type: 'doughnut',
-    data: {
-      datasets: [{
-        data: [85, 15],
-        backgroundColor: ['#fff', 'rgba(255,255,255,0.3)'],
-        hoverBackgroundColor: ['#fff', 'rgba(255,255,255,0.3)'],
-        borderWidth: 0
-      }]
-    },
+  // var chart5 = new Chart(document.getElementById('statistics-chart-5').getContext("2d"), {
+  //   type: 'doughnut',
+  //   data: {
+  //     datasets: [{
+  //       data: [85, 15],
+  //       backgroundColor: ['#fff', 'rgba(255,255,255,0.3)'],
+  //       hoverBackgroundColor: ['#fff', 'rgba(255,255,255,0.3)'],
+  //       borderWidth: 0
+  //     }]
+  //   },
 
-    options: {
-      scales: {
-        xAxes: [{
-          display: false,
-        }],
-        yAxes: [{
-          display: false
-        }]
-      },
-      legend: {
-        display: false
-      },
-      tooltips: {
-        enabled: false
-      },
-      cutoutPercentage: 94,
-      responsive: false,
-      maintainAspectRatio: false
-    }
-  });
+  //   options: {
+  //     scales: {
+  //       xAxes: [{
+  //         display: false,
+  //       }],
+  //       yAxes: [{
+  //         display: false
+  //       }]
+  //     },
+  //     legend: {
+  //       display: false
+  //     },
+  //     tooltips: {
+  //       enabled: false
+  //     },
+  //     cutoutPercentage: 94,
+  //     responsive: false,
+  //     maintainAspectRatio: false
+  //   }
+  // });
 
   var chart6 = new Chart(document.getElementById('statistics-chart-6').getContext("2d"), {
     type: 'pie',
@@ -217,11 +217,11 @@ $(function() {
   // Resizing charts
 
   function resizeCharts() {
-    chart1.resize();
+    // chart1.resize();
     chart2.resize();
     chart3.resize();
     chart4.resize();
-    chart5.resize();
+    // chart5.resize();
     chart6.resize();
   }
 
