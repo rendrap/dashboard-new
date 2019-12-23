@@ -1246,6 +1246,10 @@ li.ui-timepicker-selected,
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: all 0.5s ease;
+    &:hover {
+        box-shadow: 0 0 20px 2px #5B88F2;
+    }
 }
 
 .icon-grey {

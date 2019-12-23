@@ -1031,7 +1031,10 @@ li.ui-timepicker-selected,
   width: 130px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease; }
+  .circle:hover {
+    box-shadow: 0 0 20px 2px #5B88F2; }
 
 .icon-grey {
   color: #a3a4a6; }
