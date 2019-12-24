@@ -175,37 +175,37 @@ $(function() {
   //   }
   // });
 
-  var chart6 = new Chart(document.getElementById('statistics-chart-6').getContext("2d"), {
-    type: 'pie',
-    data: {
-      labels: ['Desktops', 'Smartphones', 'Tablets'],
-      datasets: [{
-        data: [1225, 654, 211],
-        backgroundColor: ['rgba(99,125,138,0.5)', 'rgba(28,151,244,0.5)', 'rgba(2,188,119,0.5)'],
-        borderColor: ['#647c8a', '#2196f3', '#02bc77'],
-        borderWidth: 1
-      }]
-    },
+  // var chart6 = new Chart(document.getElementById('statistics-chart-6').getContext("2d"), {
+  //   type: 'pie',
+  //   data: {
+  //     labels: ['Desktops', 'Smartphones', 'Tablets'],
+  //     datasets: [{
+  //       data: [1225, 654, 211],
+  //       backgroundColor: ['rgba(99,125,138,0.5)', 'rgba(28,151,244,0.5)', 'rgba(2,188,119,0.5)'],
+  //       borderColor: ['#647c8a', '#2196f3', '#02bc77'],
+  //       borderWidth: 1
+  //     }]
+  //   },
 
-    options: {
-      scales: {
-        xAxes: [{
-          display: false,
-        }],
-        yAxes: [{
-          display: false
-        }]
-      },
-      legend: {
-        position: 'right',
-        labels: {
-          boxWidth: 12
-        }
-      },
-      responsive: false,
-      maintainAspectRatio: false
-    }
-  });
+  //   options: {
+  //     scales: {
+  //       xAxes: [{
+  //         display: false,
+  //       }],
+  //       yAxes: [{
+  //         display: false
+  //       }]
+  //     },
+  //     legend: {
+  //       position: 'right',
+  //       labels: {
+  //         boxWidth: 12
+  //       }
+  //     },
+  //     responsive: false,
+  //     maintainAspectRatio: false
+  //   }
+  // });
 
   // new PerfectScrollbar(document.getElementById('tasks-inner'));
   // new PerfectScrollbar(document.getElementById('team-todo-inner'));
@@ -222,7 +222,7 @@ $(function() {
     chart3.resize();
     chart4.resize();
     // chart5.resize();
-    chart6.resize();
+    // chart6.resize();
   }
 
   // Initial resize
