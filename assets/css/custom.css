@@ -1237,7 +1237,7 @@ li.ui-timepicker-selected,
   border-color: rgba(78, 81, 85, 0.075); }
 
 /*==================================================
- * Card witch circle
+ * Card with circle
  * ===============================================*/
 /* line 1242, custom.scss */
 .circle {
@@ -1275,3 +1275,12 @@ li.ui-timepicker-selected,
 /* line 1277, custom.scss */
 .card > .card-footer > .row > .col {
   padding: 0; }
+
+/* line 1282, custom.scss */
+.navbar-brand img {
+  width: 50px; }
+
+/* line 1288, custom.scss */
+.app-brand img {
+  width: 50px;
+  margin: 0 auto; }
