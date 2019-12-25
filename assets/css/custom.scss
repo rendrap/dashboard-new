@@ -442,7 +442,8 @@ button.list-group-item-primary.active {
 
 .form-control:focus,
 .custom-select:focus {
-    border-color: #5B88F2
+    // border-color: #5B88F2
+    border-color: transparent
 }
 
 .switcher-input:checked~.switcher-indicator {
@@ -1265,6 +1266,14 @@ li.ui-timepicker-selected,
     opacity: 0;
 }
 
+.width-set{
+    height: calc(1.5em + 1.5rem + 15px);
+    .custom-select {
+        height: calc(1.5em + 1.5rem + 15px);
+    }
+}
+
+
 /*==================================================
  * Card with circle
  * ===============================================*/
@@ -1290,6 +1299,11 @@ li.ui-timepicker-selected,
     color: #a3a4a6;
 }
 
+.header-card {
+    .custom-select, .input-group-text {
+        border: transparent;
+    }
+}
 
 .heart {
   cursor: pointer;

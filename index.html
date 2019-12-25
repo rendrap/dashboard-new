@@ -274,19 +274,63 @@
                             <div class="text-muted text-tiny mt-1"><small class="font-weight-normal">Today is Wednesday, 25 December 2019</small></div>
                         </h4>
                         <!-- Header card  -->
-                        <div class="card text-right mb-4 blue-gradient border-0">
+                        <div class="header-card card text-right mb-4 blue-gradient border-0">
                           <div class="card-body text-white">
 
                           <div class="row">
                             <!-- mini card  -->
                             <div class="col-12 col-xl-6">
+                              <div class="row mb-4 mb-xl-0">
+                                <div class="col-auto">
+                                  <!-- Input group-->
+                                  <div class="form-group mb-0">
+                                    <div class="input-group width-set">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text pl-3 pr-2" id="listingWarehouseLabel">
+                                          <span class="ion ion-md-locate"></span>
+                                        </span>
+                                      </div>
+                                      <select class="custom-select pl-2" id="listingWarehouse" aria-describedby="listingWarehouseLabel" aria-invalid="false">
+                                        <option selected="">Choose location</option>
+                                        <option value="warehouseSelect1">Warehouse 1</option>
+                                        <option value="warehouseSelect2">Warehouse 2</option>
+                                        <option value="warehouseSelect3">Warehouse 3</option>
+                                        <option value="warehouseSelect4">Warehouse 4</option>
+                                        <option value="warehouseSelect5plus">Warehouse 5</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <!-- End Input group-->
+                                </div>
+                                <div class="col-auto">
+                                  <!-- Input group-->
+                                  <div class="form-group mb-0">
+                                    <div class="input-group width-set">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text pl-3 pr-2" id="listingPluginsLabel">
+                                          <span class="ion ion-md-outlet"></span>
+                                        </span>
+                                      </div>
+                                      <select class="custom-select pl-2" id="listingPlugins" aria-describedby="listingPluginsLabel" aria-invalid="false">
+                                        <option selected="">Choose Plugins</option>
+                                        <option value="pluginsSelect1">Plugins 1</option>
+                                        <option value="pluginsSelect2">Plugins 2</option>
+                                        <option value="pluginsSelect3">Plugins 3</option>
+                                        <option value="pluginsSelect4">Plugins 4</option>
+                                        <option value="pluginsSelect5plus">Plugins 5</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <!-- End Input group-->
+                                </div>
+                              </div>
                             </div>
 
                             <div class="col-12 col-xl-6">
 
                               <div class="row">
-                                <div class="col-4">
-                                  <div class="card bg-transparent border-0 text-white">
+                                <div class="col-sm col-xl-4">
+                                  <div class="card mb-4 mb-sm-0 bg-transparent border-0 text-white">
                                     <div class="card-body p-2 d-flex align-items-center justify-content-between">
                                       <span class="ui-icon header-card-icon ion ion-md-warning ml-1 pulse"></span>
                                       <div class="pr-2">
@@ -296,8 +340,8 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-4">
-                                  <div class="card bg-transparent border-0 text-white">
+                                <div class="col-sm col-xl-4">
+                                  <div class="card mb-4 mb-sm-0 bg-transparent border-0 text-white">
                                     <div class="card-body p-2 d-flex align-items-center justify-content-between">
                                       <span class="ui-icon header-card-icon ion ion-md-create ml-1" style="line-height: calc(2.875rem - 4px);"></span>
                                       <div class="pr-2">
@@ -307,7 +351,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-sm col-xl-4">
                                   <div class="card bg-transparent border-0 text-white">
                                     <div class="card-body p-2 d-flex align-items-center justify-content-between">
                                       <span class="ui-icon header-card-icon ion ion-md-hand ml-1" style="line-height: calc(2.875rem - 5px);"></span>
