@@ -1276,6 +1276,13 @@ li.ui-timepicker-selected,
     }
 }
 
+/*==================================================
+ * Items card
+ * ===============================================*/
+ .items-card .media:not(:last-child) {
+    padding-bottom: .25rem !important;
+    margin-bottom: 1rem !important;
+ }
 
 /*==================================================
  * Card with circle
