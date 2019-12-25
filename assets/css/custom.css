@@ -1239,7 +1239,14 @@ li.ui-timepicker-selected,
 /*==================================================
  * Card with circle
  * ===============================================*/
-/* line 1242, custom.scss */
+/* line 1243, custom.scss */
+.blue-gradient {
+  background: linear-gradient(40deg, #45cafc, #303f9f) !important; }
+
+/*==================================================
+ * Card with circle
+ * ===============================================*/
+/* line 1250, custom.scss */
 .circle {
   background: transparent;
   border: 2px solid rgba(152, 152, 153, 0.13);
@@ -1250,37 +1257,37 @@ li.ui-timepicker-selected,
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.5s ease; }
-  /* line 1252, custom.scss */
+  /* line 1260, custom.scss */
   .circle:hover {
     box-shadow: 0 0 20px 2px #5B88F2; }
-    /* line 1254, custom.scss */
+    /* line 1262, custom.scss */
     .circle:hover ~ div .white-shadow {
       box-shadow: none; }
 
-/* line 1260, custom.scss */
+/* line 1268, custom.scss */
 .icon-grey {
   color: #a3a4a6; }
 
-/* line 1266, custom.scss */
+/* line 1274, custom.scss */
 .white-shadow {
   position: relative;
   -webkit-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   -moz-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   transition: all 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28); }
-  /* line 1272, custom.scss */
+  /* line 1280, custom.scss */
   .white-shadow:hover {
     box-shadow: none; }
 
-/* line 1277, custom.scss */
+/* line 1285, custom.scss */
 .card > .card-footer > .row > .col {
   padding: 0; }
 
-/* line 1282, custom.scss */
+/* line 1290, custom.scss */
 .navbar-brand img {
   width: 50px; }
 
-/* line 1288, custom.scss */
+/* line 1296, custom.scss */
 .app-brand img {
   width: 50px;
   margin: 0 auto; }

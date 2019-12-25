@@ -1236,6 +1236,14 @@ li.ui-timepicker-selected,
     border-color: rgba(78, 81, 85, 0.075)
 }
 
+
+/*==================================================
+ * Card with circle
+ * ===============================================*/
+.blue-gradient {
+    background: linear-gradient(40deg, #45cafc, #303f9f) !important;
+}
+
 /*==================================================
  * Card with circle
  * ===============================================*/
@@ -1290,3 +1298,4 @@ li.ui-timepicker-selected,
         margin: 0 auto;
     }
 }
+
