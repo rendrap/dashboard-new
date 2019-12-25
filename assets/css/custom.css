@@ -1273,12 +1273,15 @@ li.ui-timepicker-selected,
   height: calc(1.5em + 1.5rem + 15px); }
   /* line 1271, custom.scss */
   .width-set .custom-select {
-    height: calc(1.5em + 1.5rem + 15px); }
+    height: calc(1.5em + 1.5rem + 15px);
+    flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    width: auto; }
 
 /*==================================================
  * Card with circle
  * ===============================================*/
-/* line 1280, custom.scss */
+/* line 1283, custom.scss */
 .circle {
   background: transparent;
   border: 2px solid rgba(152, 152, 153, 0.13);
@@ -1289,22 +1292,22 @@ li.ui-timepicker-selected,
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.5s ease; }
-  /* line 1290, custom.scss */
+  /* line 1293, custom.scss */
   .circle:hover {
     box-shadow: 0 0 20px 2px #5B88F2; }
-    /* line 1292, custom.scss */
+    /* line 1295, custom.scss */
     .circle:hover ~ div .white-shadow {
       box-shadow: none; }
 
-/* line 1298, custom.scss */
+/* line 1301, custom.scss */
 .icon-grey {
   color: #a3a4a6; }
 
-/* line 1303, custom.scss */
+/* line 1306, custom.scss */
 .header-card .custom-select, .header-card .input-group-text {
   border: transparent; }
 
-/* line 1308, custom.scss */
+/* line 1311, custom.scss */
 .heart {
   cursor: pointer;
   height: 50px;
@@ -1314,15 +1317,15 @@ li.ui-timepicker-selected,
   background-repeat: no-repeat;
   background-size: 2900%; }
 
-/* line 1318, custom.scss */
+/* line 1321, custom.scss */
 .heart:hover {
   background-position: right; }
 
-/* line 1322, custom.scss */
+/* line 1325, custom.scss */
 .liked {
   background-position: right; }
 
-/* line 1326, custom.scss */
+/* line 1329, custom.scss */
 .is_animating {
   animation: heart-burst 0.8s steps(28) 1; }
 
@@ -1332,26 +1335,26 @@ li.ui-timepicker-selected,
   to {
     background-position: right; } }
 
-/* line 1337, custom.scss */
+/* line 1340, custom.scss */
 .white-shadow {
   position: relative;
   -webkit-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   -moz-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   transition: all 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28); }
-  /* line 1343, custom.scss */
+  /* line 1346, custom.scss */
   .white-shadow:hover {
     box-shadow: none; }
 
-/* line 1348, custom.scss */
+/* line 1351, custom.scss */
 .card > .card-footer > .row > .col {
   padding: 0; }
 
-/* line 1353, custom.scss */
+/* line 1356, custom.scss */
 .navbar-brand img {
   width: 50px; }
 
-/* line 1359, custom.scss */
+/* line 1362, custom.scss */
 .app-brand img {
   width: 50px;
   margin: 0 auto; }

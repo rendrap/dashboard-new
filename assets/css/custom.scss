@@ -1270,6 +1270,9 @@ li.ui-timepicker-selected,
     height: calc(1.5em + 1.5rem + 15px);
     .custom-select {
         height: calc(1.5em + 1.5rem + 15px);
+        flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        width: auto;
     }
 }
 
