@@ -1237,16 +1237,41 @@ li.ui-timepicker-selected,
   border-color: rgba(78, 81, 85, 0.075); }
 
 /*==================================================
- * Card with circle
+ * Header card
  * ===============================================*/
 /* line 1243, custom.scss */
 .blue-gradient {
   background: linear-gradient(40deg, #b93cd2, #4655b6) !important; }
 
+/* line 1246, custom.scss */
+.header-card-icon {
+  font-size: 1.625rem;
+  line-height: calc(2.875rem - 10px);
+  background-color: rgba(24, 28, 33, 0.06); }
+
+/* line 1251, custom.scss */
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0.09) !important; }
+
+/* Make the element's opacity pulse*/
+@-webkit-keyframes opacityPulse {
+  0% {
+    opacity: 0.0; }
+  50% {
+    opacity: 1.0; }
+  100% {
+    opacity: 0.0; } }
+
+/* line 1262, custom.scss */
+.pulse {
+  animation: opacityPulse 2s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 0; }
+
 /*==================================================
  * Card with circle
  * ===============================================*/
-/* line 1250, custom.scss */
+/* line 1271, custom.scss */
 .circle {
   background: transparent;
   border: 2px solid rgba(152, 152, 153, 0.13);
@@ -1257,37 +1282,65 @@ li.ui-timepicker-selected,
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.5s ease; }
-  /* line 1260, custom.scss */
+  /* line 1281, custom.scss */
   .circle:hover {
     box-shadow: 0 0 20px 2px #5B88F2; }
-    /* line 1262, custom.scss */
+    /* line 1283, custom.scss */
     .circle:hover ~ div .white-shadow {
       box-shadow: none; }
 
-/* line 1268, custom.scss */
+/* line 1289, custom.scss */
 .icon-grey {
   color: #a3a4a6; }
 
-/* line 1274, custom.scss */
+/* line 1294, custom.scss */
+.heart {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background-image: url("../img/web_heart_animation.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 2900%; }
+
+/* line 1304, custom.scss */
+.heart:hover {
+  background-position: right; }
+
+/* line 1308, custom.scss */
+.liked {
+  background-position: right; }
+
+/* line 1312, custom.scss */
+.is_animating {
+  animation: heart-burst 0.8s steps(28) 1; }
+
+@keyframes heart-burst {
+  from {
+    background-position: left; }
+  to {
+    background-position: right; } }
+
+/* line 1323, custom.scss */
 .white-shadow {
   position: relative;
   -webkit-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   -moz-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   transition: all 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28); }
-  /* line 1280, custom.scss */
+  /* line 1329, custom.scss */
   .white-shadow:hover {
     box-shadow: none; }
 
-/* line 1285, custom.scss */
+/* line 1334, custom.scss */
 .card > .card-footer > .row > .col {
   padding: 0; }
 
-/* line 1290, custom.scss */
+/* line 1339, custom.scss */
 .navbar-brand img {
   width: 50px; }
 
-/* line 1296, custom.scss */
+/* line 1345, custom.scss */
 .app-brand img {
   width: 50px;
   margin: 0 auto; }

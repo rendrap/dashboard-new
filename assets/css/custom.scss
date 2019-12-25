@@ -1238,10 +1238,31 @@ li.ui-timepicker-selected,
 
 
 /*==================================================
- * Card with circle
+ * Header card
  * ===============================================*/
 .blue-gradient {
     background: linear-gradient(40deg, #b93cd2, #4655b6) !important;
+}
+.header-card-icon {
+    font-size: 1.625rem;
+    line-height: calc(2.875rem - 10px);
+    background-color: rgba(24,28,33,0.06);
+}
+.bg-transparent {
+    background-color: rgba(0, 0, 0, 0.09) !important
+}
+
+/* Make the element's opacity pulse*/
+@-webkit-keyframes opacityPulse {
+    0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+
+.pulse {
+    animation: opacityPulse 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
 
 /*==================================================
@@ -1267,6 +1288,34 @@ li.ui-timepicker-selected,
 
 .icon-grey {
     color: #a3a4a6;
+}
+
+
+.heart {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background-image:url( '../img/web_heart_animation.png');
+  background-position: left;
+  background-repeat:no-repeat;
+  background-size:2900%;
+}
+
+.heart:hover {
+  background-position:right;
+}
+
+.liked {
+  background-position:right;
+}
+
+.is_animating {
+  animation: heart-burst .8s steps(28) 1;
+}
+
+@keyframes heart-burst {
+  from {background-position:left;}
+  to { background-position:right;}
 }
 
 // White shadow
