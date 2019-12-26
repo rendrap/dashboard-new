@@ -1288,6 +1288,9 @@ margin-bottom: 1rem !important;
     flex: 1 1 auto;
     cursor: pointer;
 }
+.task-list-handle {
+    touch-action: none
+}
 
 /*==================================================
  * Todos section
