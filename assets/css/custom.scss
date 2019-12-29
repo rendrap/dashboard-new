@@ -1268,16 +1268,19 @@ li.ui-timepicker-selected,
     opacity: 0;
 }
 
-.width-set{
+.height-set{
     height: calc(1.5em + 1.5rem + 15px);
-    .custom-select {
-        height: calc(1.5em + 1.5rem + 15px);
-        flex: 1 1 auto;
-        -ms-flex: 1 1 auto;
-        width: auto;
-    }
 }
 
+.flex-width {
+    // height: calc(1.5em + 1.5rem + 15px);
+    flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    width: auto;
+}
+.btn:focus.focus-shadow-none {
+    box-shadow: none;
+}
 /*==================================================
  * My Items sectioon
  * ===============================================*/

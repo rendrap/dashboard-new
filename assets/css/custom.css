@@ -1269,37 +1269,41 @@ li.ui-timepicker-selected,
   opacity: 0; }
 
 /* line 1271, custom.scss */
-.width-set {
+.height-set {
   height: calc(1.5em + 1.5rem + 15px); }
-  /* line 1273, custom.scss */
-  .width-set .custom-select {
-    height: calc(1.5em + 1.5rem + 15px);
-    flex: 1 1 auto;
-    -ms-flex: 1 1 auto;
-    width: auto; }
+
+/* line 1275, custom.scss */
+.flex-width {
+  flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  width: auto; }
+
+/* line 1281, custom.scss */
+.btn:focus.focus-shadow-none {
+  box-shadow: none; }
 
 /*==================================================
  * My Items sectioon
  * ===============================================*/
-/* line 1284, custom.scss */
+/* line 1287, custom.scss */
 .items-card .media:not(:last-child) {
   padding-bottom: .25rem !important;
   margin-bottom: 1rem !important; }
 
-/* line 1288, custom.scss */
+/* line 1291, custom.scss */
 .wide-click-area {
   display: flex;
   flex: 1 1 auto;
   cursor: pointer; }
 
-/* line 1293, custom.scss */
+/* line 1296, custom.scss */
 .task-list-handle {
   touch-action: none; }
 
 /*==================================================
  * Todos section
  * ===============================================*/
-/* line 1300, custom.scss */
+/* line 1303, custom.scss */
 .gu-mirror {
   position: fixed !important;
   margin: 0 !important;
@@ -1308,24 +1312,24 @@ li.ui-timepicker-selected,
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80); }
 
-/* line 1309, custom.scss */
+/* line 1312, custom.scss */
 .gu-hide {
   display: none !important; }
 
-/* line 1313, custom.scss */
+/* line 1316, custom.scss */
 .gu-unselectable {
   -webkit-user-select: none !important;
   -moz-user-select: none !important;
   -ms-user-select: none !important;
   user-select: none !important; }
 
-/* line 1320, custom.scss */
+/* line 1323, custom.scss */
 .gu-transit {
   opacity: 0.2;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
   filter: alpha(opacity=20); }
 
-/* line 1327, custom.scss */
+/* line 1330, custom.scss */
 .task-list-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1338,30 +1342,30 @@ li.ui-timepicker-selected,
   justify-content: space-between;
   padding: 0.625rem 0; }
 
-/* line 1340, custom.scss */
+/* line 1343, custom.scss */
 .task-list-item .ui-todo-item {
   margin: 0; }
 
-/* line 1344, custom.scss */
+/* line 1347, custom.scss */
 .default-style .task-list-item {
   background: #fff; }
 
-/* line 1348, custom.scss */
+/* line 1351, custom.scss */
 .default-style .task-list-item + .task-list-item {
   border-top: 1px solid rgba(24, 28, 33, 0.06); }
 
-/* line 1352, custom.scss */
+/* line 1355, custom.scss */
 .material-style .task-list-item {
   background: #fff; }
 
-/* line 1356, custom.scss */
+/* line 1359, custom.scss */
 .material-style .task-list-item + .task-list-item {
   border-top: 1px solid rgba(24, 28, 33, 0.06); }
 
 /*==================================================
  * Card with circle
  * ===============================================*/
-/* line 1363, custom.scss */
+/* line 1366, custom.scss */
 .circle {
   background: transparent;
   border: 2px solid rgba(152, 152, 153, 0.13);
@@ -1372,22 +1376,22 @@ li.ui-timepicker-selected,
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.5s ease; }
-  /* line 1373, custom.scss */
+  /* line 1376, custom.scss */
   .circle:hover {
     box-shadow: 0 0 20px 2px #5B88F2; }
-    /* line 1375, custom.scss */
+    /* line 1378, custom.scss */
     .circle:hover ~ div .white-shadow {
       box-shadow: none; }
 
-/* line 1381, custom.scss */
+/* line 1384, custom.scss */
 .icon-grey {
   color: #a3a4a6; }
 
-/* line 1386, custom.scss */
+/* line 1389, custom.scss */
 .header-card .custom-select, .header-card .input-group-text {
   border: transparent; }
 
-/* line 1391, custom.scss */
+/* line 1394, custom.scss */
 .heart {
   cursor: pointer;
   height: 50px;
@@ -1397,15 +1401,15 @@ li.ui-timepicker-selected,
   background-repeat: no-repeat;
   background-size: 2900%; }
 
-/* line 1401, custom.scss */
+/* line 1404, custom.scss */
 .heart:hover {
   background-position: right; }
 
-/* line 1405, custom.scss */
+/* line 1408, custom.scss */
 .liked {
   background-position: right; }
 
-/* line 1409, custom.scss */
+/* line 1412, custom.scss */
 .is_animating {
   animation: heart-burst 0.8s steps(28) 1; }
 
@@ -1415,26 +1419,26 @@ li.ui-timepicker-selected,
   to {
     background-position: right; } }
 
-/* line 1420, custom.scss */
+/* line 1423, custom.scss */
 .white-shadow {
   position: relative;
   -webkit-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   -moz-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   transition: all 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28); }
-  /* line 1426, custom.scss */
+  /* line 1429, custom.scss */
   .white-shadow:hover {
     box-shadow: none; }
 
-/* line 1431, custom.scss */
+/* line 1434, custom.scss */
 .card > .card-footer > .row > .col {
   padding: 0; }
 
-/* line 1436, custom.scss */
+/* line 1439, custom.scss */
 .navbar-brand img {
   width: 50px; }
 
-/* line 1442, custom.scss */
+/* line 1445, custom.scss */
 .app-brand img {
   width: 50px;
   margin: 0 auto; }
