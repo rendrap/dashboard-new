@@ -46,7 +46,7 @@ $(function() {
         borderWidth: 2,
         backgroundColor: 'rgba(233, 30, 99, 0.3)',
         borderColor:     '#E91E63',
-        pointBackgroundColor: 'rgba(255, 255, 255, 0.8)',
+        pointBackgroundColor: 'rgba(255, 255, 255, 0.99)',
         pointBorderWidth: 2,
         pointHoverRadius: 4,
         pointHoverBackgroundColor: 'rgba(233, 30, 99, 1)',
