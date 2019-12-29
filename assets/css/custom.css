@@ -1,89 +1,89 @@
-/* line 1, custom.scss */
+/* line 3, custom.scss */
 body {
   background: #f5f5f5; }
 
-/* line 5, custom.scss */
+/* line 7, custom.scss */
 .bg-body {
   background: #f5f5f5 !important; }
 
-/* line 9, custom.scss */
+/* line 11, custom.scss */
 .text-primary {
   color: #5B88F2 !important; }
 
-/* line 13, custom.scss */
+/* line 15, custom.scss */
 a.text-primary:hover,
 a.text-primary:focus {
   color: #386eef !important; }
 
-/* line 18, custom.scss */
+/* line 20, custom.scss */
 .bg-primary {
   background-color: #5B88F2 !important; }
 
-/* line 22, custom.scss */
+/* line 24, custom.scss */
 a.bg-primary:hover,
 a.bg-primary:focus {
   background-color: #2c66ee !important; }
 
-/* line 27, custom.scss */
+/* line 29, custom.scss */
 .bg-primary-dark {
   background-color: #22a2e6 !important; }
 
-/* line 31, custom.scss */
+/* line 33, custom.scss */
 a.bg-primary-dark:hover,
 a.bg-primary-dark:focus {
   background-color: #209adb !important; }
 
-/* line 36, custom.scss */
+/* line 38, custom.scss */
 .bg-primary-darker {
   background-color: #2099d9 !important; }
 
-/* line 40, custom.scss */
+/* line 42, custom.scss */
 a.bg-primary-darker:hover,
 a.bg-primary-darker:focus {
   background-color: #1e91ce !important; }
 
-/* line 45, custom.scss */
+/* line 47, custom.scss */
 html:not([dir=rtl]) .border-primary,
 html[dir=rtl] .border-primary {
   border-color: #5B88F2 !important; }
 
-/* line 50, custom.scss */
+/* line 52, custom.scss */
 .badge-primary {
   background-color: #5B88F2;
   color: #fff; }
 
-/* line 55, custom.scss */
+/* line 57, custom.scss */
 .badge-primary[href]:hover,
 .badge-primary[href]:focus {
   background-color: #386eef;
   color: #fff;
   text-decoration: none; }
 
-/* line 62, custom.scss */
+/* line 64, custom.scss */
 .btn .badge-primary {
   background: #5B88F2 !important;
   border-color: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 68, custom.scss */
+/* line 70, custom.scss */
 .badge-outline-primary {
   background-color: transparent;
   box-shadow: 0 0 0 1px #5B88F2 inset;
   color: #5B88F2; }
 
-/* line 74, custom.scss */
+/* line 76, custom.scss */
 .badge-outline-primary[href]:hover,
 .badge-outline-primary[href]:focus {
   color: #5B88F2;
   text-decoration: none; }
 
-/* line 80, custom.scss */
+/* line 82, custom.scss */
 .btn .badge-outline-primary {
   background-color: transparent !important;
   box-shadow: 0 0 0 1px #5B88F2 inset !important;
   color: #5B88F2 !important; }
 
-/* line 86, custom.scss */
+/* line 88, custom.scss */
 .page-item.active .page-link,
 .page-item.active .page-link:hover,
 .page-item.active .page-link:focus,
@@ -94,23 +94,23 @@ html[dir=rtl] .border-primary {
   background-color: #5B88F2;
   color: #fff; }
 
-/* line 97, custom.scss */
+/* line 99, custom.scss */
 .progress-bar {
   background-color: #5B88F2;
   color: #fff; }
 
-/* line 102, custom.scss */
+/* line 104, custom.scss */
 .list-group-item-primary {
   border-color: rgba(0, 0, 0, 0.07);
   background-color: #e9f8ff;
   color: #5d6366; }
 
-/* line 108, custom.scss */
+/* line 110, custom.scss */
 a.list-group-item-primary,
 button.list-group-item-primary {
   color: #5d6366; }
 
-/* line 113, custom.scss */
+/* line 115, custom.scss */
 a.list-group-item-primary:hover,
 a.list-group-item-primary:focus,
 button.list-group-item-primary:hover,
@@ -118,14 +118,14 @@ button.list-group-item-primary:focus {
   background-color: #e7f6fc;
   color: #5d6366; }
 
-/* line 121, custom.scss */
+/* line 123, custom.scss */
 a.list-group-item-primary.active,
 button.list-group-item-primary.active {
   border-color: #5B88F2;
   background-color: #5B88F2;
   color: #5d6366; }
 
-/* line 128, custom.scss */
+/* line 130, custom.scss */
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
@@ -133,42 +133,42 @@ button.list-group-item-primary.active {
   background-color: #5B88F2;
   color: #fff; }
 
-/* line 136, custom.scss */
+/* line 138, custom.scss */
 .alert-primary {
   border-color: #d1e5f0;
   background-color: #def4ff;
   color: #596266; }
 
-/* line 142, custom.scss */
+/* line 144, custom.scss */
 .alert-primary hr {
   border-top-color: #d1e5f0; }
 
-/* line 146, custom.scss */
+/* line 148, custom.scss */
 .alert-primary .alert-link {
   color: #596266; }
 
-/* line 150, custom.scss */
+/* line 152, custom.scss */
 .alert-dark-primary {
   background-color: #5B88F2;
   color: #fff; }
 
-/* line 155, custom.scss */
+/* line 157, custom.scss */
 .alert-dark-primary hr {
   border-top-color: rgba(255, 255, 255, 0.2); }
 
-/* line 159, custom.scss */
+/* line 161, custom.scss */
 .alert-dark-primary .close,
 .alert-dark-primary .alert-link {
   color: #fff; }
 
-/* line 164, custom.scss */
+/* line 166, custom.scss */
 .tooltip-primary .tooltip-inner,
 .tooltip-primary > .tooltip .tooltip-inner,
 .ngb-tooltip-primary + ngb-tooltip-window .tooltip-inner {
   background: #5B88F2;
   color: #fff; }
 
-/* line 171, custom.scss */
+/* line 173, custom.scss */
 .tooltip-primary.bs-tooltip-top .arrow::before,
 .tooltip-primary.bs-tooltip-auto[x-placement^="top"] .arrow::before,
 .tooltip-primary > .tooltip.bs-tooltip-top .arrow::before,
@@ -177,7 +177,7 @@ button.list-group-item-primary.active {
 .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-auto[x-placement^="top"] .arrow::before {
   border-top-color: #5B88F2; }
 
-/* line 180, custom.scss */
+/* line 182, custom.scss */
 .tooltip-primary.bs-tooltip-right .arrow::before,
 .tooltip-primary.bs-tooltip-auto[x-placement^="right"] .arrow::before,
 .tooltip-primary > .tooltip.bs-tooltip-right .arrow::before,
@@ -186,7 +186,7 @@ button.list-group-item-primary.active {
 .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-auto[x-placement^="right"] .arrow::before {
   border-right-color: #5B88F2; }
 
-/* line 189, custom.scss */
+/* line 191, custom.scss */
 .tooltip-primary.bs-tooltip-bottom .arrow::before,
 .tooltip-primary.bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
 .tooltip-primary > .tooltip.bs-tooltip-bottom .arrow::before,
@@ -195,7 +195,7 @@ button.list-group-item-primary.active {
 .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
   border-bottom-color: #5B88F2; }
 
-/* line 198, custom.scss */
+/* line 200, custom.scss */
 .tooltip-primary.bs-tooltip-left .arrow::before,
 .tooltip-primary.bs-tooltip-auto[x-placement^="left"] .arrow::before,
 .tooltip-primary > .tooltip.bs-tooltip-left .arrow::before,
@@ -204,14 +204,14 @@ button.list-group-item-primary.active {
 .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-auto[x-placement^="left"] .arrow::before {
   border-left-color: #5B88F2; }
 
-/* line 207, custom.scss */
+/* line 209, custom.scss */
 .popover-primary,
 .popover-primary > .popover,
 .ngb-popover-primary + ngb-popover-window {
   border-color: transparent;
   background: #5B88F2; }
 
-/* line 214, custom.scss */
+/* line 216, custom.scss */
 .popover-primary .popover-header,
 .popover-primary > .popover .popover-header,
 .ngb-popover-primary + ngb-popover-window .popover-header {
@@ -219,20 +219,20 @@ button.list-group-item-primary.active {
   background: transparent;
   color: #fff; }
 
-/* line 222, custom.scss */
+/* line 224, custom.scss */
 .popover-primary .popover-body,
 .popover-primary > .popover .popover-body,
 .ngb-popover-primary + ngb-popover-window .popover-body {
   background: transparent;
   color: #fff; }
 
-/* line 229, custom.scss */
+/* line 231, custom.scss */
 .popover-primary > .arrow::before,
 .popover-primary > .popover > .arrow::before,
 .ngb-popover-primary + ngb-popover-window > .arrow::before {
   border-color: transparent; }
 
-/* line 235, custom.scss */
+/* line 237, custom.scss */
 .popover-primary.bs-popover-top > .arrow::after,
 .popover-primary.bs-popover-auto[x-placement^="top"] > .arrow::after,
 .popover-primary > .popover.bs-popover-top > .arrow::after,
@@ -241,7 +241,7 @@ button.list-group-item-primary.active {
 .ngb-popover-primary + ngb-popover-window.bs-popover-auto[x-placement^="top"] > .arrow::after {
   border-top-color: #5B88F2; }
 
-/* line 244, custom.scss */
+/* line 246, custom.scss */
 .popover-primary.bs-popover-right > .arrow::after,
 .popover-primary.bs-popover-auto[x-placement^="right"] > .arrow::after,
 .popover-primary > .popover.bs-popover-right > .arrow::after,
@@ -250,7 +250,7 @@ button.list-group-item-primary.active {
 .ngb-popover-primary + ngb-popover-window.bs-popover-auto[x-placement^="right"] > .arrow::after {
   border-right-color: #5B88F2; }
 
-/* line 253, custom.scss */
+/* line 255, custom.scss */
 .popover-primary.bs-popover-bottom > .arrow::after,
 .popover-primary.bs-popover-auto[x-placement^="bottom"] > .arrow::after,
 .popover-primary > .popover.bs-popover-bottom > .arrow::after,
@@ -259,7 +259,7 @@ button.list-group-item-primary.active {
 .ngb-popover-primary + ngb-popover-window.bs-popover-auto[x-placement^="bottom"] > .arrow::after {
   border-bottom-color: #5B88F2; }
 
-/* line 262, custom.scss */
+/* line 264, custom.scss */
 .popover-primary.bs-popover-left > .arrow::after,
 .popover-primary.bs-popover-auto[x-placement^="left"] > .arrow::after,
 .popover-primary > .popover.bs-popover-left > .arrow::after,
@@ -268,7 +268,7 @@ button.list-group-item-primary.active {
 .ngb-popover-primary + ngb-popover-window.bs-popover-auto[x-placement^="left"] > .arrow::after {
   border-left-color: #5B88F2; }
 
-/* line 271, custom.scss */
+/* line 273, custom.scss */
 .table .table-primary,
 .table .table-primary > th,
 .table .table-primary > td {
@@ -276,30 +276,30 @@ button.list-group-item-primary.active {
   background-color: #e9f8ff;
   color: #5d6366; }
 
-/* line 279, custom.scss */
+/* line 281, custom.scss */
 .table-hover .table-primary:hover,
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
   background-color: #e7f6fc; }
 
-/* line 285, custom.scss */
+/* line 287, custom.scss */
 .btn-primary {
   border-color: rgba(0, 0, 0, 0);
   background: #5B88F2;
   color: #fff; }
 
-/* line 291, custom.scss */
+/* line 293, custom.scss */
 .btn-primary:hover {
   border-color: rgba(0, 0, 0, 0);
   background: #386eef;
   color: #fff; }
 
-/* line 297, custom.scss */
+/* line 299, custom.scss */
 .btn-primary:focus,
 .btn-primary.focus {
   box-shadow: 0 0 0 2px rgba(38, 180, 255, 0.4); }
 
-/* line 302, custom.scss */
+/* line 304, custom.scss */
 .btn-primary.disabled,
 .btn-primary:disabled {
   border-color: rgba(0, 0, 0, 0) !important;
@@ -307,12 +307,12 @@ button.list-group-item-primary.active {
   box-shadow: none !important;
   color: #fff !important; }
 
-/* line 310, custom.scss */
+/* line 312, custom.scss */
 .btn-primary .badge {
   background: #fff;
   color: #5B88F2; }
 
-/* line 315, custom.scss */
+/* line 317, custom.scss */
 .btn-primary:active,
 .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
@@ -320,38 +320,38 @@ button.list-group-item-primary.active {
   background: #2c66ee;
   box-shadow: none; }
 
-/* line 323, custom.scss */
+/* line 325, custom.scss */
 .btn-group .btn-primary,
 .input-group-prepend .btn-primary,
 .input-group-append .btn-primary {
   border-right: 1px solid #205ded;
   border-left: 1px solid #205ded; }
 
-/* line 330, custom.scss */
+/* line 332, custom.scss */
 .btn-outline-primary {
   border-color: #5B88F2;
   background: transparent;
   color: #5B88F2; }
 
-/* line 336, custom.scss */
+/* line 338, custom.scss */
 .btn-outline-primary:hover {
   border-color: rgba(0, 0, 0, 0);
   background: #5B88F2;
   color: #fff; }
 
-/* line 342, custom.scss */
+/* line 344, custom.scss */
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
   box-shadow: 0 0 0 2px rgba(38, 180, 255, 0.4); }
 
-/* line 347, custom.scss */
+/* line 349, custom.scss */
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
   border-color: #5B88F2 !important;
   background: transparent !important;
   color: #5B88F2 !important; }
 
-/* line 354, custom.scss */
+/* line 356, custom.scss */
 .btn-outline-primary:active,
 .btn-outline-primary.active,
 .show > .btn-outline-primary.dropdown-toggle {
@@ -360,13 +360,13 @@ button.list-group-item-primary.active {
   color: #fff;
   box-shadow: none; }
 
-/* line 363, custom.scss */
+/* line 365, custom.scss */
 .btn-outline-primary .badge {
   background: #5B88F2;
   border-color: #5B88F2;
   color: #fff; }
 
-/* line 369, custom.scss */
+/* line 371, custom.scss */
 .btn-outline-primary:hover .badge,
 .btn-outline-primary:focus .badge,
 .btn-outline-primary:active .badge,
@@ -376,26 +376,26 @@ button.list-group-item-primary.active {
   border-color: #fff;
   color: #5B88F2; }
 
-/* line 379, custom.scss */
+/* line 381, custom.scss */
 .dropdown-item:not(.disabled).active,
 .dropdown-item:not(.disabled):active {
   background-color: #5B88F2;
   color: #fff; }
 
-/* line 385, custom.scss */
+/* line 387, custom.scss */
 .dropdown-menu > li:not(.disabled) > a:not(.dropdown-item):active,
 .dropdown-menu > li.active:not(.disabled) > a:not(.dropdown-item) {
   background-color: #5B88F2;
   color: #fff; }
 
-/* line 391, custom.scss */
+/* line 393, custom.scss */
 .nav-pills .nav-link.active,
 .nav-pills .nav-link.active:hover,
 .nav-pills .nav-link.active:focus {
   background-color: #5B88F2;
   color: #fff; }
 
-/* line 398, custom.scss */
+/* line 400, custom.scss */
 .tabs-alt.nav-tabs .nav-link.active,
 .tabs-alt.nav-tabs .nav-link.active:hover,
 .tabs-alt.nav-tabs .nav-link.active:focus,
@@ -404,132 +404,132 @@ button.list-group-item-primary.active {
 .tabs-alt > .nav-tabs .nav-link.active:focus {
   box-shadow: 0 -2px 0 #5B88F2 inset; }
 
-/* line 407, custom.scss */
+/* line 409, custom.scss */
 .custom-control .custom-control-input:focus ~ .custom-control-label::before,
 .custom-control .custom-control-input:active ~ .custom-control-label::before {
   border-color: #5B88F2; }
 
-/* line 412, custom.scss */
+/* line 414, custom.scss */
 .custom-control .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 2px rgba(38, 180, 255, 0.4); }
 
-/* line 416, custom.scss */
+/* line 418, custom.scss */
 .custom-control.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before,
 .custom-control.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before,
 .custom-control.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
   border-color: #5B88F2;
   background-color: #5B88F2; }
 
-/* line 423, custom.scss */
+/* line 425, custom.scss */
 .custom-control.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E"); }
 
-/* line 427, custom.scss */
+/* line 429, custom.scss */
 .custom-control.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9.5 7.5'%3E%3Cpolyline points='0.75 4.35 4.18 6.75 8.75 0.75' style='fill:none;stroke:%23fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px'/%3E%3C/svg%3E"); }
 
-/* line 431, custom.scss */
+/* line 433, custom.scss */
 .custom-control.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E"); }
 
-/* line 435, custom.scss */
+/* line 437, custom.scss */
 .custom-file-input:focus ~ .custom-file-label {
   border-color: #5B88F2; }
 
-/* line 439, custom.scss */
+/* line 441, custom.scss */
 .custom-file-input:focus ~ .custom-file-label::after {
   border-color: inherit; }
 
-/* line 443, custom.scss */
+/* line 445, custom.scss */
 .form-control:focus,
 .custom-select:focus {
   border-color: transparent; }
 
-/* line 449, custom.scss */
+/* line 451, custom.scss */
 .switcher-input:checked ~ .switcher-indicator {
   background: #5B88F2;
   color: #fff; }
 
-/* line 454, custom.scss */
+/* line 456, custom.scss */
 .switcher-input:focus ~ .switcher-indicator {
   box-shadow: 0 0 0 2px rgba(38, 180, 255, 0.4); }
 
-/* line 458, custom.scss */
+/* line 460, custom.scss */
 .switcher-input:active ~ .switcher-indicator {
   box-shadow: none; }
 
-/* line 462, custom.scss */
+/* line 464, custom.scss */
 .navbar.bg-primary {
   background-color: #5B88F2 !important;
   color: #daf2ff; }
 
-/* line 467, custom.scss */
+/* line 469, custom.scss */
 .navbar.bg-primary .navbar-brand {
   color: #fff; }
 
-/* line 471, custom.scss */
+/* line 473, custom.scss */
 .navbar.bg-primary .navbar-brand:hover,
 .navbar.bg-primary .navbar-brand:focus {
   color: #fff; }
 
-/* line 476, custom.scss */
+/* line 478, custom.scss */
 .navbar.bg-primary .navbar-nav .nav-link {
   color: #daf2ff; }
 
-/* line 480, custom.scss */
+/* line 482, custom.scss */
 .navbar.bg-primary .navbar-nav .nav-link:hover,
 .navbar.bg-primary .navbar-nav .nav-link:focus {
   color: #fff; }
 
-/* line 485, custom.scss */
+/* line 487, custom.scss */
 .navbar.bg-primary .navbar-nav .nav-link.disabled {
   color: #92d9ff !important; }
 
-/* line 489, custom.scss */
+/* line 491, custom.scss */
 .navbar.bg-primary .navbar-nav .show > .nav-link,
 .navbar.bg-primary .navbar-nav .active > .nav-link,
 .navbar.bg-primary .navbar-nav .nav-link.show,
 .navbar.bg-primary .navbar-nav .nav-link.active {
   color: #fff; }
 
-/* line 496, custom.scss */
+/* line 498, custom.scss */
 .navbar.bg-primary .navbar-toggler {
   color: #daf2ff;
   border-color: rgba(255, 255, 255, 0.15); }
 
-/* line 501, custom.scss */
+/* line 503, custom.scss */
 .navbar.bg-primary .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255,255,255,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
-/* line 505, custom.scss */
+/* line 507, custom.scss */
 .navbar.bg-primary .navbar-text {
   color: #daf2ff; }
 
-/* line 509, custom.scss */
+/* line 511, custom.scss */
 .navbar.bg-primary .navbar-text a {
   color: #fff; }
 
-/* line 513, custom.scss */
+/* line 515, custom.scss */
 .navbar.bg-primary .navbar-text a:hover,
 .navbar.bg-primary .navbar-text a:focus {
   color: #fff; }
 
-/* line 518, custom.scss */
+/* line 520, custom.scss */
 .navbar.bg-primary hr {
   border-color: rgba(255, 255, 255, 0.15); }
 
-/* line 522, custom.scss */
+/* line 524, custom.scss */
 .sidenav.bg-primary {
   background-color: #5B88F2 !important;
   color: #daf2ff; }
 
-/* line 527, custom.scss */
+/* line 529, custom.scss */
 .sidenav.bg-primary .sidenav-link,
 .sidenav.bg-primary .sidenav-horizontal-prev,
 .sidenav.bg-primary .sidenav-horizontal-next {
   color: #daf2ff; }
 
-/* line 533, custom.scss */
+/* line 535, custom.scss */
 .sidenav.bg-primary .sidenav-link:hover,
 .sidenav.bg-primary .sidenav-link:focus,
 .sidenav.bg-primary .sidenav-horizontal-prev:hover,
@@ -538,161 +538,161 @@ button.list-group-item-primary.active {
 .sidenav.bg-primary .sidenav-horizontal-next:focus {
   color: #fff; }
 
-/* line 542, custom.scss */
+/* line 544, custom.scss */
 .sidenav.bg-primary .sidenav-link.active,
 .sidenav.bg-primary .sidenav-horizontal-prev.active,
 .sidenav.bg-primary .sidenav-horizontal-next.active {
   color: #fff; }
 
-/* line 548, custom.scss */
+/* line 550, custom.scss */
 .sidenav.bg-primary .sidenav-item.disabled .sidenav-link,
 .sidenav.bg-primary .sidenav-horizontal-prev.disabled,
 .sidenav.bg-primary .sidenav-horizontal-next.disabled {
   color: #92d9ff !important; }
 
-/* line 554, custom.scss */
+/* line 556, custom.scss */
 .sidenav.bg-primary .sidenav-item.open:not(.sidenav-item-closing) > .sidenav-toggle,
 .sidenav.bg-primary .sidenav-item.active > .sidenav-link {
   color: #fff; }
 
-/* line 559, custom.scss */
+/* line 561, custom.scss */
 .sidenav.bg-primary .sidenav-item.active > .sidenav-link:not(.sidenav-toggle) {
   background-color: #386eef; }
 
-/* line 563, custom.scss */
+/* line 565, custom.scss */
 .sidenav.bg-primary.sidenav-horizontal .sidenav-menu > .sidenav-item.active > .sidenav-link:not(.sidenav-toggle) {
   background-color: #22a2e6; }
 
-/* line 567, custom.scss */
+/* line 569, custom.scss */
 .sidenav.bg-primary.sidenav-horizontal .sidenav-inner > .sidenav-item:not(.sidenav-item-closing) > .sidenav-menu,
 .sidenav.bg-primary.sidenav-horizontal .sidenav-inner > .sidenav-item.open > .sidenav-toggle {
   background: #386eef; }
 
-/* line 572, custom.scss */
+/* line 574, custom.scss */
 .sidenav.bg-primary .sidenav-inner > .sidenav-item.sidenav-item-closing .sidenav-item.open .sidenav-menu,
 .sidenav.bg-primary .sidenav-inner > .sidenav-item.sidenav-item-closing .sidenav-item.open .sidenav-toggle {
   background: transparent;
   color: #daf2ff; }
 
-/* line 578, custom.scss */
+/* line 580, custom.scss */
 .sidenav.bg-primary .sidenav-text {
   color: #fff; }
 
-/* line 582, custom.scss */
+/* line 584, custom.scss */
 .sidenav.bg-primary .sidenav-header {
   color: #ade3ff; }
 
-/* line 586, custom.scss */
+/* line 588, custom.scss */
 .sidenav.bg-primary hr,
 .sidenav.bg-primary .sidenav-divider,
 .sidenav.bg-primary .sidenav-inner > .sidenav-item.open > .sidenav-menu::before {
   border-color: rgba(255, 255, 255, 0.15) !important; }
 
-/* line 592, custom.scss */
+/* line 594, custom.scss */
 .sidenav.bg-primary .sidenav-inner > .sidenav-header::before,
 .sidenav.bg-primary .sidenav-block::before {
   background-color: rgba(255, 255, 255, 0.15); }
 
-/* line 597, custom.scss */
+/* line 599, custom.scss */
 .sidenav.bg-primary .sidenav-inner > .sidenav-item.open .sidenav-item.open > .sidenav-toggle::before {
   background-color: #45b8f4; }
 
-/* line 601, custom.scss */
+/* line 603, custom.scss */
 .sidenav.bg-primary .sidenav-inner > .sidenav-item.open .sidenav-item.active > .sidenav-link::before {
   background-color: #fff; }
 
-/* line 605, custom.scss */
+/* line 607, custom.scss */
 .sidenav.bg-primary .sidenav-inner > .sidenav-item.open .sidenav-item.open > .sidenav-toggle::before,
 .sidenav.bg-primary .sidenav-inner > .sidenav-item.open .sidenav-item.active > .sidenav-link::before {
   box-shadow: 0 0 0 2px #386eef; }
 
-/* line 610, custom.scss */
+/* line 612, custom.scss */
 .sidenav.bg-primary .ps__thumb-y,
 .sidenav.bg-primary .ps__rail-y.ps--clicking > .ps__thumb-y {
   background: rgba(255, 255, 255, 0.629164) !important; }
 
-/* line 615, custom.scss */
+/* line 617, custom.scss */
 .footer.bg-primary {
   background-color: #5B88F2 !important;
   color: #daf2ff; }
 
-/* line 620, custom.scss */
+/* line 622, custom.scss */
 .footer.bg-primary .footer-link {
   color: #daf2ff; }
 
-/* line 624, custom.scss */
+/* line 626, custom.scss */
 .footer.bg-primary .footer-link:hover,
 .footer.bg-primary .footer-link:focus {
   color: #fff; }
 
-/* line 629, custom.scss */
+/* line 631, custom.scss */
 .footer.bg-primary .footer-link.disabled {
   color: #92d9ff !important; }
 
-/* line 633, custom.scss */
+/* line 635, custom.scss */
 .footer.bg-primary .footer-text {
   color: #fff; }
 
-/* line 637, custom.scss */
+/* line 639, custom.scss */
 .footer.bg-primary .show > .footer-link,
 .footer.bg-primary .active > .footer-link,
 .footer.bg-primary .footer-link.show,
 .footer.bg-primary .footer-link.active {
   color: #fff; }
 
-/* line 644, custom.scss */
+/* line 646, custom.scss */
 .footer.bg-primary hr {
   border-color: rgba(255, 255, 255, 0.15); }
 
-/* line 648, custom.scss */
+/* line 650, custom.scss */
 .bg-primary.bs4-toast {
   color: #fff;
   background-color: rgba(38, 180, 255, 0.9) !important; }
 
-/* line 653, custom.scss */
+/* line 655, custom.scss */
 .bg-primary.bs4-toast .toast-header {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1); }
 
-/* line 658, custom.scss */
+/* line 660, custom.scss */
 .fill-primary {
   fill: #5B88F2; }
 
-/* line 662, custom.scss */
+/* line 664, custom.scss */
 .slider-primary .slider-selection,
 .slider-primary .slider-reversed .slider-track-high,
 .slider-primary.slider-reversed .slider-track-high {
   background: #5B88F2; }
 
-/* line 668, custom.scss */
+/* line 670, custom.scss */
 .noUi-primary .noUi-base .noUi-connect {
   background: #5B88F2 !important; }
 
-/* line 672, custom.scss */
+/* line 674, custom.scss */
 .default-style .select2-container--default .select2-results__option--highlighted[aria-selected] {
   background-color: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 677, custom.scss */
+/* line 679, custom.scss */
 .default-style .select2-container--default.select2-container--focus .select2-selection,
 .default-style .select2-container--default.select2-container--open .select2-selection {
   border-color: #5B88F2 !important; }
 
-/* line 682, custom.scss */
+/* line 684, custom.scss */
 .default-style .select2-primary .select2-container--default .select2-selection--multiple .select2-selection__choice {
   background: #5B88F2;
   color: #fff; }
 
-/* line 687, custom.scss */
+/* line 689, custom.scss */
 .bootstrap-tagsinput.focus {
   border-color: #5B88F2 !important; }
 
-/* line 691, custom.scss */
+/* line 693, custom.scss */
 .bootstrap-select .dropdown-menu.inner a[aria-selected=true] {
   background: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 696, custom.scss */
+/* line 698, custom.scss */
 .datepicker table tr td.active,
 .datepicker table tr td.active.highlighted,
 .datepicker table tr td.active.today,
@@ -703,50 +703,50 @@ button.list-group-item-primary.active {
   background: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 707, custom.scss */
+/* line 709, custom.scss */
 .datepicker table tr td.range,
 .datepicker table tr td.range.highlighted,
 .datepicker table tr td.range.today {
   background: #def4ff !important;
   color: #596266 !important; }
 
-/* line 714, custom.scss */
+/* line 716, custom.scss */
 .datepicker table tr td.range.focused,
 .datepicker table tr td.range.highlighted.focused,
 .datepicker table tr td.range.today.focused {
   background: #bfeaff !important; }
 
-/* line 720, custom.scss */
+/* line 722, custom.scss */
 .datepicker table tr td.range.disabled,
 .datepicker table tr td.range.highlighted.disabled,
 .datepicker table tr td.range.today.disabled {
   background: rgba(222, 244, 255, 0.5) !important;
   color: rgba(89, 98, 102, 0.5) !important; }
 
-/* line 727, custom.scss */
+/* line 729, custom.scss */
 .flatpickr-calendar .numInputWrapper span.arrowUp:after {
   border-bottom-color: #fff; }
 
-/* line 731, custom.scss */
+/* line 733, custom.scss */
 .flatpickr-calendar .numInputWrapper span.arrowDown:after {
   border-top-color: #fff; }
 
-/* line 735, custom.scss */
+/* line 737, custom.scss */
 .flatpickr-month,
 span.flatpickr-weekday {
   background: #5B88F2;
   color: #fff;
   fill: #fff; }
 
-/* line 742, custom.scss */
+/* line 744, custom.scss */
 .flatpickr-weekdays {
   background: #5B88F2; }
 
-/* line 746, custom.scss */
+/* line 748, custom.scss */
 .flatpickr-day.today {
   border-color: #5B88F2; }
 
-/* line 750, custom.scss */
+/* line 752, custom.scss */
 .flatpickr-day.inRange,
 .flatpickr-day.prevMonthDay.inRange,
 .flatpickr-day.nextMonthDay.inRange,
@@ -757,7 +757,7 @@ span.flatpickr-weekday {
   background: #def4ff !important;
   color: #596266 !important; }
 
-/* line 761, custom.scss */
+/* line 763, custom.scss */
 .flatpickr-day.selected,
 .flatpickr-day.startRange,
 .flatpickr-day.endRange,
@@ -781,86 +781,86 @@ span.flatpickr-weekday {
   background: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 785, custom.scss */
+/* line 787, custom.scss */
 .daterangepicker td.active {
   background-color: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 790, custom.scss */
+/* line 792, custom.scss */
 .daterangepicker td.in-range:not(.start-date):not(.end-date):not(.off) {
   background-color: #def4ff !important;
   color: #596266 !important; }
 
-/* line 795, custom.scss */
+/* line 797, custom.scss */
 .daterangepicker .input-mini.active {
   border-color: #5B88F2 !important; }
 
-/* line 799, custom.scss */
+/* line 801, custom.scss */
 .ranges li.active {
   background-color: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 804, custom.scss */
+/* line 806, custom.scss */
 .dtp-date,
 .dtp-time {
   background: #5B88F2;
   color: #fff; }
 
-/* line 810, custom.scss */
+/* line 812, custom.scss */
 .dtp-close > a {
   color: #fff; }
 
-/* line 814, custom.scss */
+/* line 816, custom.scss */
 header.dtp-header {
   background: #2099d9;
   color: #fff; }
 
-/* line 819, custom.scss */
+/* line 821, custom.scss */
 table.dtp-picker-days tr > td > a.selected {
   background: #5B88F2;
   color: #fff !important; }
 
-/* line 824, custom.scss */
+/* line 826, custom.scss */
 .dtp-actual-meridien a.selected {
   background: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 829, custom.scss */
+/* line 831, custom.scss */
 .dtp .year-picker-item:hover {
   color: #5B88F2; }
 
-/* line 833, custom.scss */
+/* line 835, custom.scss */
 .dtp .year-picker-item.active {
   color: #5B88F2; }
 
-/* line 837, custom.scss */
+/* line 839, custom.scss */
 .dtp .svg-clock [stroke="#8BC34A"] {
   stroke: #5B88F2 !important; }
 
-/* line 841, custom.scss */
+/* line 843, custom.scss */
 .dtp .svg-clock [fill="#8BC34A"] {
   fill: #5B88F2 !important; }
 
-/* line 845, custom.scss */
+/* line 847, custom.scss */
 .dtp .svg-clock [fill="#fff"] {
   fill: #fff !important; }
 
-/* line 849, custom.scss */
+/* line 851, custom.scss */
 li.ui-timepicker-selected,
 .ui-timepicker-list .ui-timepicker-selected:hover {
   background: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 855, custom.scss */
+/* line 857, custom.scss */
 .growl-default {
   background: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 860, custom.scss */
+/* line 862, custom.scss */
 .md-editor.active {
   border-color: #5B88F2 !important; }
 
-/* line 864, custom.scss */
+/* line 866, custom.scss */
 .ql-snow.ql-toolbar button:hover,
 .ql-snow.ql-toolbar button:focus,
 .ql-snow.ql-toolbar button.ql-active,
@@ -877,7 +877,7 @@ li.ui-timepicker-selected,
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected {
   color: #5B88F2 !important; }
 
-/* line 881, custom.scss */
+/* line 883, custom.scss */
 .ql-snow.ql-toolbar button:hover .ql-fill,
 .ql-snow.ql-toolbar button:focus .ql-fill,
 .ql-snow.ql-toolbar button.ql-active .ql-fill,
@@ -908,7 +908,7 @@ li.ui-timepicker-selected,
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill {
   fill: #5B88F2 !important; }
 
-/* line 912, custom.scss */
+/* line 914, custom.scss */
 .ql-snow.ql-toolbar button:hover .ql-stroke,
 .ql-snow.ql-toolbar button:focus .ql-stroke,
 .ql-snow.ql-toolbar button.ql-active .ql-stroke,
@@ -939,26 +939,26 @@ li.ui-timepicker-selected,
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter {
   stroke: #5B88F2 !important; }
 
-/* line 943, custom.scss */
+/* line 945, custom.scss */
 .ql-snow.ql-container .ql-editor:focus {
   border-color: #5B88F2 !important; }
 
-/* line 947, custom.scss */
+/* line 949, custom.scss */
 .tt-suggestion:active,
 .tt-cursor {
   background: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 953, custom.scss */
+/* line 955, custom.scss */
 .dropzone.dz-drag-hover {
   border-color: #5B88F2 !important; }
 
-/* line 957, custom.scss */
+/* line 959, custom.scss */
 .swiper-pagination-bullet.swiper-pagination-bullet-active,
 .swiper-pagination.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
   background: #5B88F2 !important; }
 
-/* line 962, custom.scss */
+/* line 964, custom.scss */
 .sk-primary.sk-rotating-plane,
 .sk-primary.sk-double-bounce .sk-child,
 .sk-primary.sk-wave .sk-rect,
@@ -972,64 +972,64 @@ li.ui-timepicker-selected,
 .sk-primary.sk-folding-cube .sk-cube:before {
   background-color: #5B88F2; }
 
-/* line 976, custom.scss */
+/* line 978, custom.scss */
 .sw-theme-default .step-anchor > li.active > a .sw-icon,
 .sw-theme-default .step-anchor > li.active > a .sw-number {
   color: #5B88F2;
   border-color: #5B88F2; }
 
-/* line 982, custom.scss */
+/* line 984, custom.scss */
 .plyr input[type='range']::-ms-fill-lower {
   background: #5B88F2 !important; }
 
-/* line 986, custom.scss */
+/* line 988, custom.scss */
 .plyr input[type='range']:active::-webkit-slider-thumb {
   background: #5B88F2 !important; }
 
-/* line 990, custom.scss */
+/* line 992, custom.scss */
 .plyr input[type='range']:active::-moz-range-thumb {
   background: #5B88F2 !important; }
 
-/* line 994, custom.scss */
+/* line 996, custom.scss */
 .plyr input[type='range']:active::-ms-thumb {
   background: #5B88F2 !important; }
 
-/* line 998, custom.scss */
+/* line 1000, custom.scss */
 .plyr--video .plyr__controls button.tab-focus:focus,
 .plyr--video .plyr__controls button:hover {
   background: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 1004, custom.scss */
+/* line 1006, custom.scss */
 .plyr--audio .plyr__controls button.tab-focus:focus,
 .plyr--audio .plyr__controls button:hover {
   background: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 1010, custom.scss */
+/* line 1012, custom.scss */
 .plyr__play-large {
   background: #5B88F2 !important;
   color: #fff !important; }
 
-/* line 1015, custom.scss */
+/* line 1017, custom.scss */
 .plyr__progress--played,
 .plyr__volume--display {
   color: #5B88F2 !important; }
 
-/* line 1020, custom.scss */
+/* line 1022, custom.scss */
 .fc-event {
   background: rgba(38, 180, 255, 0.15) !important; }
 
-/* line 1024, custom.scss */
+/* line 1026, custom.scss */
 .fc-event-dot {
   background: rgba(38, 180, 255, 0.4) !important; }
 
-/* line 1028, custom.scss */
+/* line 1030, custom.scss */
 .fc-highlight,
 .fc-bgevent:not(.fc-nonbusiness) {
   background: #5B88F2 !important; }
 
-/* line 1033, custom.scss */
+/* line 1035, custom.scss */
 .swal2-progress-steps[class] .swal2-progress-step.swal2-active-progress-step,
 .swal2-progress-steps[class] .swal2-progress-step-line,
 .swal2-progress-steps[class] .swal2-active-progress-step,
@@ -1037,91 +1037,91 @@ li.ui-timepicker-selected,
   background: #5B88F2;
   color: #fff; }
 
-/* line 1041, custom.scss */
+/* line 1043, custom.scss */
 .swal2-progress-steps[class] .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step,
 .swal2-progress-steps[class] .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step-line {
   background: #c9ecff; }
 
-/* line 1046, custom.scss */
+/* line 1048, custom.scss */
 .ui-product-color.active {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #5B88F2 !important; }
 
-/* line 1050, custom.scss */
+/* line 1052, custom.scss */
 .bg-navbar-theme {
   background-color: #fff !important;
   color: #a3a4a6; }
 
-/* line 1055, custom.scss */
+/* line 1057, custom.scss */
 .bg-navbar-theme .navbar-brand {
   color: #4E5155; }
 
-/* line 1059, custom.scss */
+/* line 1061, custom.scss */
 .bg-navbar-theme .navbar-brand:hover,
 .bg-navbar-theme .navbar-brand:focus {
   color: #4E5155; }
 
-/* line 1064, custom.scss */
+/* line 1066, custom.scss */
 .bg-navbar-theme .navbar-nav .nav-link {
   color: #a3a4a6; }
 
-/* line 1068, custom.scss */
+/* line 1070, custom.scss */
 .bg-navbar-theme .navbar-nav .nav-link:hover,
 .bg-navbar-theme .navbar-nav .nav-link:focus {
   color: #4E5155; }
 
-/* line 1073, custom.scss */
+/* line 1075, custom.scss */
 .bg-navbar-theme .navbar-nav .nav-link.disabled {
   color: #c8c8ca !important; }
 
-/* line 1077, custom.scss */
+/* line 1079, custom.scss */
 .bg-navbar-theme .navbar-nav .show > .nav-link,
 .bg-navbar-theme .navbar-nav .active > .nav-link,
 .bg-navbar-theme .navbar-nav .nav-link.show,
 .bg-navbar-theme .navbar-nav .nav-link.active {
   color: #4E5155; }
 
-/* line 1084, custom.scss */
+/* line 1086, custom.scss */
 .bg-navbar-theme .navbar-toggler {
   color: #a3a4a6;
   border-color: rgba(78, 81, 85, 0.075); }
 
-/* line 1089, custom.scss */
+/* line 1091, custom.scss */
 .bg-navbar-theme .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(24,28,33,0.4)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
-/* line 1093, custom.scss */
+/* line 1095, custom.scss */
 .bg-navbar-theme .navbar-text {
   color: #a3a4a6; }
 
-/* line 1097, custom.scss */
+/* line 1099, custom.scss */
 .bg-navbar-theme .navbar-text a {
   color: #4E5155; }
 
-/* line 1101, custom.scss */
+/* line 1103, custom.scss */
 .bg-navbar-theme .navbar-text a:hover,
 .bg-navbar-theme .navbar-text a:focus {
   color: #4E5155; }
 
-/* line 1106, custom.scss */
+/* line 1108, custom.scss */
 .bg-navbar-theme hr {
   border-color: rgba(78, 81, 85, 0.075); }
 
-/* line 1110, custom.scss */
+/* line 1112, custom.scss */
 .layout-navbar {
   box-shadow: 0 1px 0 rgba(24, 28, 33, 0.06); }
 
-/* line 1114, custom.scss */
+/* line 1116, custom.scss */
 .bg-sidenav-theme {
   background-color: #2e323a !important;
   color: #838790; }
 
-/* line 1119, custom.scss */
+/* line 1121, custom.scss */
 .bg-sidenav-theme .sidenav-link,
 .bg-sidenav-theme .sidenav-horizontal-prev,
 .bg-sidenav-theme .sidenav-horizontal-next {
   color: #838790; }
 
-/* line 1125, custom.scss */
+/* line 1127, custom.scss */
 .bg-sidenav-theme .sidenav-link:hover,
 .bg-sidenav-theme .sidenav-link:focus,
 .bg-sidenav-theme .sidenav-horizontal-prev:hover,
@@ -1130,126 +1130,126 @@ li.ui-timepicker-selected,
 .bg-sidenav-theme .sidenav-horizontal-next:focus {
   color: #fff; }
 
-/* line 1134, custom.scss */
+/* line 1136, custom.scss */
 .bg-sidenav-theme .sidenav-link.active,
 .bg-sidenav-theme .sidenav-horizontal-prev.active,
 .bg-sidenav-theme .sidenav-horizontal-next.active {
   color: #fff; }
 
-/* line 1140, custom.scss */
+/* line 1142, custom.scss */
 .bg-sidenav-theme .sidenav-item.disabled .sidenav-link,
 .bg-sidenav-theme .sidenav-horizontal-prev.disabled,
 .bg-sidenav-theme .sidenav-horizontal-next.disabled {
   color: #61656e !important; }
 
-/* line 1146, custom.scss */
+/* line 1148, custom.scss */
 .bg-sidenav-theme .sidenav-item.open:not(.sidenav-item-closing) > .sidenav-toggle,
 .bg-sidenav-theme .sidenav-item.active > .sidenav-link {
   color: #fff; }
 
-/* line 1151, custom.scss */
+/* line 1153, custom.scss */
 .bg-sidenav-theme .sidenav-item.active > .sidenav-link:not(.sidenav-toggle) {
   background-color: #383c44; }
 
-/* line 1155, custom.scss */
+/* line 1157, custom.scss */
 .bg-sidenav-theme.sidenav-horizontal .sidenav-menu > .sidenav-item.active > .sidenav-link:not(.sidenav-toggle) {
   background-color: #42464d; }
 
-/* line 1159, custom.scss */
+/* line 1161, custom.scss */
 .bg-sidenav-theme.sidenav-horizontal .sidenav-inner > .sidenav-item:not(.sidenav-item-closing) > .sidenav-menu,
 .bg-sidenav-theme.sidenav-horizontal .sidenav-inner > .sidenav-item.open > .sidenav-toggle {
   background: #383c44; }
 
-/* line 1164, custom.scss */
+/* line 1166, custom.scss */
 .bg-sidenav-theme .sidenav-inner > .sidenav-item.sidenav-item-closing .sidenav-item.open .sidenav-menu,
 .bg-sidenav-theme .sidenav-inner > .sidenav-item.sidenav-item-closing .sidenav-item.open .sidenav-toggle {
   background: transparent;
   color: #838790; }
 
-/* line 1170, custom.scss */
+/* line 1172, custom.scss */
 .bg-sidenav-theme .sidenav-text {
   color: #fff; }
 
-/* line 1174, custom.scss */
+/* line 1176, custom.scss */
 .bg-sidenav-theme .sidenav-header {
   color: #6e727b; }
 
-/* line 1178, custom.scss */
+/* line 1180, custom.scss */
 .bg-sidenav-theme hr,
 .bg-sidenav-theme .sidenav-divider,
 .bg-sidenav-theme .sidenav-inner > .sidenav-item.open > .sidenav-menu::before {
   border-color: rgba(255, 255, 255, 0.06) !important; }
 
-/* line 1184, custom.scss */
+/* line 1186, custom.scss */
 .bg-sidenav-theme .sidenav-inner > .sidenav-header::before,
 .bg-sidenav-theme .sidenav-block::before {
   background-color: rgba(255, 255, 255, 0.06); }
 
-/* line 1189, custom.scss */
+/* line 1191, custom.scss */
 .bg-sidenav-theme .sidenav-inner > .sidenav-item.open .sidenav-item.open > .sidenav-toggle::before {
   background-color: #44484f; }
 
-/* line 1193, custom.scss */
+/* line 1195, custom.scss */
 .bg-sidenav-theme .sidenav-inner > .sidenav-item.open .sidenav-item.active > .sidenav-link::before {
   background-color: #fff; }
 
-/* line 1197, custom.scss */
+/* line 1199, custom.scss */
 .bg-sidenav-theme .sidenav-inner > .sidenav-item.open .sidenav-item.open > .sidenav-toggle::before,
 .bg-sidenav-theme .sidenav-inner > .sidenav-item.open .sidenav-item.active > .sidenav-link::before {
   box-shadow: 0 0 0 2px #383c44; }
 
-/* line 1202, custom.scss */
+/* line 1204, custom.scss */
 .bg-sidenav-theme .ps__thumb-y,
 .bg-sidenav-theme .ps__rail-y.ps--clicking > .ps__thumb-y {
   background: rgba(255, 255, 255, 0.477986) !important; }
 
-/* line 1207, custom.scss */
+/* line 1209, custom.scss */
 .bg-footer-theme {
   background-color: #fff !important;
   color: #a3a4a6; }
 
-/* line 1212, custom.scss */
+/* line 1214, custom.scss */
 .bg-footer-theme .footer-link {
   color: #a3a4a6; }
 
-/* line 1216, custom.scss */
+/* line 1218, custom.scss */
 .bg-footer-theme .footer-link:hover,
 .bg-footer-theme .footer-link:focus {
   color: #4E5155; }
 
-/* line 1221, custom.scss */
+/* line 1223, custom.scss */
 .bg-footer-theme .footer-link.disabled {
   color: #c8c8ca !important; }
 
-/* line 1225, custom.scss */
+/* line 1227, custom.scss */
 .bg-footer-theme .footer-text {
   color: #4E5155; }
 
-/* line 1229, custom.scss */
+/* line 1231, custom.scss */
 .bg-footer-theme .show > .footer-link,
 .bg-footer-theme .active > .footer-link,
 .bg-footer-theme .footer-link.show,
 .bg-footer-theme .footer-link.active {
   color: #4E5155; }
 
-/* line 1236, custom.scss */
+/* line 1238, custom.scss */
 .bg-footer-theme hr {
   border-color: rgba(78, 81, 85, 0.075); }
 
 /*==================================================
  * Header card
  * ===============================================*/
-/* line 1244, custom.scss */
+/* line 1246, custom.scss */
 .blue-gradient {
   background: linear-gradient(40deg, #b93cd2, #4655b6) !important; }
 
-/* line 1247, custom.scss */
+/* line 1249, custom.scss */
 .header-card-icon {
   font-size: 1.625rem;
   line-height: calc(2.875rem - 10px);
   background-color: rgba(24, 28, 33, 0.06); }
 
-/* line 1252, custom.scss */
+/* line 1254, custom.scss */
 .bg-transparent {
   background-color: rgba(0, 0, 0, 0.09) !important; }
 
@@ -1262,16 +1262,16 @@ li.ui-timepicker-selected,
   100% {
     opacity: 0.0; } }
 
-/* line 1263, custom.scss */
+/* line 1265, custom.scss */
 .pulse {
   animation: opacityPulse 2s ease-out;
   animation-iteration-count: infinite;
   opacity: 0; }
 
-/* line 1269, custom.scss */
+/* line 1271, custom.scss */
 .width-set {
   height: calc(1.5em + 1.5rem + 15px); }
-  /* line 1271, custom.scss */
+  /* line 1273, custom.scss */
   .width-set .custom-select {
     height: calc(1.5em + 1.5rem + 15px);
     flex: 1 1 auto;
@@ -1281,25 +1281,25 @@ li.ui-timepicker-selected,
 /*==================================================
  * My Items sectioon
  * ===============================================*/
-/* line 1282, custom.scss */
+/* line 1284, custom.scss */
 .items-card .media:not(:last-child) {
   padding-bottom: .25rem !important;
   margin-bottom: 1rem !important; }
 
-/* line 1286, custom.scss */
+/* line 1288, custom.scss */
 .wide-click-area {
   display: flex;
   flex: 1 1 auto;
   cursor: pointer; }
 
-/* line 1291, custom.scss */
+/* line 1293, custom.scss */
 .task-list-handle {
   touch-action: none; }
 
 /*==================================================
  * Todos section
  * ===============================================*/
-/* line 1298, custom.scss */
+/* line 1300, custom.scss */
 .gu-mirror {
   position: fixed !important;
   margin: 0 !important;
@@ -1308,24 +1308,24 @@ li.ui-timepicker-selected,
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80); }
 
-/* line 1307, custom.scss */
+/* line 1309, custom.scss */
 .gu-hide {
   display: none !important; }
 
-/* line 1311, custom.scss */
+/* line 1313, custom.scss */
 .gu-unselectable {
   -webkit-user-select: none !important;
   -moz-user-select: none !important;
   -ms-user-select: none !important;
   user-select: none !important; }
 
-/* line 1318, custom.scss */
+/* line 1320, custom.scss */
 .gu-transit {
   opacity: 0.2;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
   filter: alpha(opacity=20); }
 
-/* line 1325, custom.scss */
+/* line 1327, custom.scss */
 .task-list-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1338,30 +1338,30 @@ li.ui-timepicker-selected,
   justify-content: space-between;
   padding: 0.625rem 0; }
 
-/* line 1338, custom.scss */
+/* line 1340, custom.scss */
 .task-list-item .ui-todo-item {
   margin: 0; }
 
-/* line 1342, custom.scss */
+/* line 1344, custom.scss */
 .default-style .task-list-item {
   background: #fff; }
 
-/* line 1346, custom.scss */
+/* line 1348, custom.scss */
 .default-style .task-list-item + .task-list-item {
   border-top: 1px solid rgba(24, 28, 33, 0.06); }
 
-/* line 1350, custom.scss */
+/* line 1352, custom.scss */
 .material-style .task-list-item {
   background: #fff; }
 
-/* line 1354, custom.scss */
+/* line 1356, custom.scss */
 .material-style .task-list-item + .task-list-item {
   border-top: 1px solid rgba(24, 28, 33, 0.06); }
 
 /*==================================================
  * Card with circle
  * ===============================================*/
-/* line 1361, custom.scss */
+/* line 1363, custom.scss */
 .circle {
   background: transparent;
   border: 2px solid rgba(152, 152, 153, 0.13);
@@ -1372,22 +1372,22 @@ li.ui-timepicker-selected,
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.5s ease; }
-  /* line 1371, custom.scss */
+  /* line 1373, custom.scss */
   .circle:hover {
     box-shadow: 0 0 20px 2px #5B88F2; }
-    /* line 1373, custom.scss */
+    /* line 1375, custom.scss */
     .circle:hover ~ div .white-shadow {
       box-shadow: none; }
 
-/* line 1379, custom.scss */
+/* line 1381, custom.scss */
 .icon-grey {
   color: #a3a4a6; }
 
-/* line 1384, custom.scss */
+/* line 1386, custom.scss */
 .header-card .custom-select, .header-card .input-group-text {
   border: transparent; }
 
-/* line 1389, custom.scss */
+/* line 1391, custom.scss */
 .heart {
   cursor: pointer;
   height: 50px;
@@ -1397,15 +1397,15 @@ li.ui-timepicker-selected,
   background-repeat: no-repeat;
   background-size: 2900%; }
 
-/* line 1399, custom.scss */
+/* line 1401, custom.scss */
 .heart:hover {
   background-position: right; }
 
-/* line 1403, custom.scss */
+/* line 1405, custom.scss */
 .liked {
   background-position: right; }
 
-/* line 1407, custom.scss */
+/* line 1409, custom.scss */
 .is_animating {
   animation: heart-burst 0.8s steps(28) 1; }
 
@@ -1415,26 +1415,26 @@ li.ui-timepicker-selected,
   to {
     background-position: right; } }
 
-/* line 1418, custom.scss */
+/* line 1420, custom.scss */
 .white-shadow {
   position: relative;
   -webkit-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   -moz-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
   transition: all 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28); }
-  /* line 1424, custom.scss */
+  /* line 1426, custom.scss */
   .white-shadow:hover {
     box-shadow: none; }
 
-/* line 1429, custom.scss */
+/* line 1431, custom.scss */
 .card > .card-footer > .row > .col {
   padding: 0; }
 
-/* line 1434, custom.scss */
+/* line 1436, custom.scss */
 .navbar-brand img {
   width: 50px; }
 
-/* line 1440, custom.scss */
+/* line 1442, custom.scss */
 .app-brand img {
   width: 50px;
   margin: 0 auto; }
