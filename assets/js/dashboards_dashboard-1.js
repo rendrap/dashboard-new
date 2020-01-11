@@ -98,7 +98,9 @@ $(function() {
   window.layoutHelpers.on('resize.charts-demo', resizeCharts);
 
 
-  const api_url = 'http://localhost:3000/monthly';
+  // Local API endpoint
+  // const api_url = 'http://localhost:3000/monthly';
+  const api_url = 'https://monthly-data-server.glitch.me/monthly';
   async function getData() {
     const response = await fetch(api_url);
     const api_data = await response.json();
