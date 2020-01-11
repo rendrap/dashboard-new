@@ -42,7 +42,6 @@ $(function() {
     datasets: [{
       label:           'Missing assets value',
       data:            [226043, 220000, 250000, 160000, 210000, 219000, 280000],
-      lineTension: 0.4,
       borderWidth: 2,
       backgroundColor: 'rgba(233, 30, 99, 0.3)',
       borderColor:     '#E91E63',
@@ -54,6 +53,7 @@ $(function() {
       pointHoverBorderWidth: 2,
       pointRadius: 4,
       pointHitRadius: 10,
+      lineTension: 0, // previously 0.4
       spanGaps: false
     }],
   };
