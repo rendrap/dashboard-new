@@ -123,6 +123,6 @@ $(function() {
       });
 
     graphChart.update();
-  }, 3500);
+  }, 2000);
 
 });
