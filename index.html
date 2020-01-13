@@ -362,16 +362,42 @@
                             <div class="col-xl-8">
                                 <!-- Chart section -->
                                 <div class="row card flex-row no-gutters row-bordered row-border-light container-m--x">
+
+
+
                                     <!-- Missing Assets graph -->
                                     <h6 class="card-header with-elements">
-                                        <div class="card-header-title">Missing Assets</div>
+                                        <div class="card-header-title">Statistics</div>
                                     </h6>
                                     <div class="col-lg-8 col-xl-9 container-p-x py-4">
-                                        <div>
-                                            <canvas id="chart-graph" class="chartjs-wrap" height="250"></canvas>
+                                        <!-- Carousel section -->
+                                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <h6 class="d-block w-100">Missing Assets</h6>
+                                                    <canvas id="chart-graph" class="chartjs-wrap" height="250"></canvas>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <h6 class="d-block w-100">Second slide</h6>
+                                                    <canvas id="static-graph" class="chartjs-wrap" height="250"></canvas>
+                                                </div>
+                                                <!-- <div class="carousel-item">
+                                                    <h6 class="d-block w-100">Third slide</h5>
+                                                </div> -->
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
                                         </div>
+                                        <!-- End of Carousel section -->
                                     </div>
-                                    <!-- / Missing Assets -->
+                                    <!-- / Missing Assets graph-->
+
                                     <!-- Payment stats -->
                                     <div class="d-flex col-lg-4 col-xl-3 container-p-x py-4">
                                         <div class="align-self-center w-100">
