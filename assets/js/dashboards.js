@@ -123,7 +123,7 @@ $(function() {
         });
 
         graphChart.update();
-    }, 2000);
+    }, 30000); // fetch data every 30 seconds
 
 
     /* Accurate Assets Value Chart */
