@@ -35,13 +35,13 @@ $(function() {
         $(this).wrap($('<div style="height:' + this.getAttribute('height') + 'px"></div>'));
     });
 
-    var ctx = document.getElementById('chart-graph').getContext("2d");
+    var ctx = document.getElementById('missing-graph').getContext("2d");
 
     var data = {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ['January', 'February', 'March', 'April', 'May', 'June'],
         datasets: [{
             label: 'Missing assets value',
-            data: [226043, 220000, 250000, 160000, 210000, 219000, 280000],
+            data: [226043, 220000, 250000, 160000, 210000, 219000],
             borderWidth: 2,
             backgroundColor: 'rgba(233, 30, 99, 0.3)',
             borderColor: '#E91E63',
@@ -126,14 +126,14 @@ $(function() {
     }, 2000);
 
 
-    /* Static Chart */
-    var staticChart = new Chart(document.getElementById('static-graph').getContext("2d"), {
+    /* Accurate Assets Value Chart */
+    var accurateChart = new Chart(document.getElementById('accurate-graph').getContext("2d"), {
         type: 'line',
         data: {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
             datasets: [{
                 label: 'Sample value',
-                data: [226043, 220000, 250000, 160000, 210000, 219000, 280000],
+                data: [226043, 220000, 250000, 160000, 210000, 219000],
                 borderWidth: 2,
                 backgroundColor: 'rgba(0, 230, 118, 0.3)',
                 borderColor: 'rgba(0, 230, 118, 0.75)',
@@ -173,7 +173,105 @@ $(function() {
             }
         }
     });
-    /* End of Static Chart */
+    /* End of Accurate Assets Value Chart */
+
+    /* Excess Assets Value Chart */
+    var excessChart = new Chart(document.getElementById('excess-graph').getContext("2d"), {
+        type: 'line',
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+            datasets: [{
+                label: 'Excess Assets ',
+                data: [95000, 90000, 85000, 110000, 100000, 75000],
+                borderWidth: 2,
+                backgroundColor: 'rgba(255, 217, 80, 0.3)',
+                borderColor: 'rgba(255, 217, 80, 0.75)',
+                pointBackgroundColor: 'rgba(255, 255, 255, 0.99)',
+                pointBorderWidth: 2,
+                pointHoverRadius: 4,
+                pointHoverBackgroundColor: 'rgba(255, 217, 80,, 1)',
+                pointHoverBorderColor: 'rgba(255, 217, 80, .4)',
+                pointHoverBorderWidth: 2,
+                pointRadius: 4,
+                pointHitRadius: 10,
+                spanGaps: false,
+                lineTension: 0,
+            }],
+        },
+
+        options: {
+            animation: false,
+            legend: { display: false },
+            maintainAspectRatio: false,
+            responsive: true,
+            responsiveAnimationDuration: 0,
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        padding: 5,
+                        callback: function(value, index, values) {
+                            if (parseInt(value) >= 1000) {
+                                return '$' + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                            } else {
+                                return '$' + value;
+                            }
+                        }
+                    }
+                }]
+            }
+        }
+    });
+    /* End of Excess Assets Value Chart */
+
+    /* Total Assets Value Chart */
+    var TotalChart = new Chart(document.getElementById('total-graph').getContext("2d"), {
+        type: 'line',
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+            datasets: [{
+                label: 'Excess Assets ',
+                data: [520000, 530000, 580000, 500000, 600000, 620000],
+                borderWidth: 2,
+                backgroundColor: 'rgba(91, 136, 242, 0.3)',
+                borderColor: 'rgba(91, 136, 242, 0.75)',
+                pointBackgroundColor: 'rgba(255, 255, 255, 0.99)',
+                pointBorderWidth: 2,
+                pointHoverRadius: 4,
+                pointHoverBackgroundColor: 'rgba(91, 136, 242,, 1)',
+                pointHoverBorderColor: 'rgba(91, 136, 242, .4)',
+                pointHoverBorderWidth: 2,
+                pointRadius: 4,
+                pointHitRadius: 10,
+                spanGaps: false,
+                lineTension: 0,
+            }],
+        },
+
+        options: {
+            animation: false,
+            legend: { display: false },
+            maintainAspectRatio: false,
+            responsive: true,
+            responsiveAnimationDuration: 0,
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        padding: 5,
+                        callback: function(value, index, values) {
+                            if (parseInt(value) >= 1000) {
+                                return '$' + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                            } else {
+                                return '$' + value;
+                            }
+                        }
+                    }
+                }]
+            }
+        }
+    });
+    /* End of Total Assets Value Chart */
 
 
 });

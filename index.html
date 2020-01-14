@@ -373,17 +373,23 @@
                                         <!-- Carousel section -->
                                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                    <h6 class="d-block w-100">Missing Assets</h6>
-                                                    <canvas id="chart-graph" class="chartjs-wrap" height="250"></canvas>
+                                                <div class="carousel-item">
+                                                    <h6 class="d-block w-100">Total Assets Value</h6>
+                                                    <canvas id="total-graph" class="chartjs-wrap" height="250"></canvas>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <h6 class="d-block w-100">Second slide</h6>
-                                                    <canvas id="static-graph" class="chartjs-wrap" height="250"></canvas>
+                                                    <h6 class="d-block w-100">Accurate Assets Value</h6>
+                                                    <canvas id="accurate-graph" class="chartjs-wrap" height="250"></canvas>
                                                 </div>
-                                                <!-- <div class="carousel-item">
-                                                    <h6 class="d-block w-100">Third slide</h5>
-                                                </div> -->
+                                                <div class="carousel-item active">
+                                                    <h6 class="d-block w-100">Missing Assets Value</h6>
+                                                    <canvas id="missing-graph" class="chartjs-wrap" height="250"></canvas>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <h6 class="d-block w-100">Excess Assets Value</h6>
+                                                    <canvas id="excess-graph" class="chartjs-wrap" height="250"></canvas>
+                                                </div>
+
                                             </div>
                                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -521,7 +527,7 @@
                                             <div class="card-footer border-0 text-center py-3">
                                                 <div class="row">
                                                     <div class="col">
-                                                        <button type="button" class="btn btn-xs btn-default px-1">Create Ticket</button>
+                                                        <button type="button" class="btn btn-xs btn-default px-1">Create</button>
                                                     </div>
                                                     <div class="col">
                                                         <button type="button" class="btn btn-xs btn-default px-1">Pick Ticket</button>
