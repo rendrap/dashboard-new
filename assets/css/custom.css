@@ -1177,15 +1177,6 @@ li.ui-timepicker-selected,
   to {
     background-position: right; } }
 
-.white-shadow {
-  position: relative;
-  -webkit-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
-  -moz-box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
-  box-shadow: 0px 0px 10px 11px white, 0px 1px 0px 20px white inset;
-  transition: all 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28); }
-  .white-shadow:hover {
-    box-shadow: none; }
-
 .card > .card-footer > .row > .col {
   padding: 0; }
 
@@ -1195,12 +1186,6 @@ li.ui-timepicker-selected,
 .app-brand img {
   width: 50px;
   margin: 0 auto; }
-
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e"); }
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e"); }
 
 #carouselControls .carousel-indicators {
   bottom: 25px; }
