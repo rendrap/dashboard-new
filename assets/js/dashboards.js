@@ -182,65 +182,65 @@ $(function() {
   /* End of Accurate Assets Value Chart */
 
   /* Excess Assets Value Chart */
-  if ($('#excess-graph').length !== 0) {
-    var excessChart = new Chart(document.getElementById('excess-graph').getContext("2d"), {
-        type: 'line',
-        data: {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
-            datasets: [{
-                label: 'Excess Assets ',
-                data: [95000, 90000, 85000, 110000, 100000, 75000],
-                borderWidth: 2,
-                backgroundColor: 'rgba(255, 217, 80, 0.3)',
-                borderColor: 'rgba(255, 217, 80, 0.75)',
-                pointBackgroundColor: 'rgba(255, 255, 255, 0.99)',
-                pointBorderWidth: 2,
-                pointHoverRadius: 4,
-                pointHoverBackgroundColor: 'rgba(255, 217, 80,, 1)',
-                pointHoverBorderColor: 'rgba(255, 217, 80, .4)',
-                pointHoverBorderWidth: 2,
-                pointRadius: 4,
-                pointHitRadius: 10,
-                spanGaps: false,
-                lineTension: 0,
-            }],
-        },
+  // if ($('#excess-graph').length !== 0) {
+  //   var excessChart = new Chart(document.getElementById('excess-graph').getContext("2d"), {
+  //       type: 'line',
+  //       data: {
+  //           labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+  //           datasets: [{
+  //               label: 'Excess Assets ',
+  //               data: [95000, 90000, 85000, 110000, 100000, 75000],
+  //               borderWidth: 2,
+  //               backgroundColor: 'rgba(255, 217, 80, 0.3)',
+  //               borderColor: 'rgba(255, 217, 80, 0.75)',
+  //               pointBackgroundColor: 'rgba(255, 255, 255, 0.99)',
+  //               pointBorderWidth: 2,
+  //               pointHoverRadius: 4,
+  //               pointHoverBackgroundColor: 'rgba(255, 217, 80,, 1)',
+  //               pointHoverBorderColor: 'rgba(255, 217, 80, .4)',
+  //               pointHoverBorderWidth: 2,
+  //               pointRadius: 4,
+  //               pointHitRadius: 10,
+  //               spanGaps: false,
+  //               lineTension: 0,
+  //           }],
+  //       },
 
-        options: options
-    });
-  }
-  /* End of Excess Assets Value Chart */
+  //       options: options
+  //   });
+  // }
+  // /* End of Excess Assets Value Chart */
 
-  /* Total Assets Value Chart */
-  if ($('#total-graph').length !== 0) {
-    var TotalChart = new Chart(document.getElementById('total-graph').getContext("2d"), {
-        type: 'line',
-        data: {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
-            datasets: [{
-                label: 'Total Assets ',
-                data: [520000, 530000, 580000, 500000, 600000, 620000],
-                borderWidth: 2,
-                backgroundColor: 'rgba(91, 136, 242, 0.3)',
-                borderColor: 'rgba(91, 136, 242, 0.75)',
-                pointBackgroundColor: 'rgba(255, 255, 255, 0.99)',
-                pointBorderWidth: 2,
-                pointHoverRadius: 4,
-                pointHoverBackgroundColor: 'rgba(91, 136, 242,, 1)',
-                pointHoverBorderColor: 'rgba(91, 136, 242, .4)',
-                pointHoverBorderWidth: 2,
-                pointRadius: 4,
-                pointHitRadius: 10,
-                spanGaps: false,
-                lineTension: 0,
-            }],
-        },
+  // /* Total Assets Value Chart */
+  // if ($('#total-graph').length !== 0) {
+  //   var TotalChart = new Chart(document.getElementById('total-graph').getContext("2d"), {
+  //       type: 'line',
+  //       data: {
+  //           labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+  //           datasets: [{
+  //               label: 'Total Assets ',
+  //               data: [520000, 530000, 580000, 500000, 600000, 620000],
+  //               borderWidth: 2,
+  //               backgroundColor: 'rgba(91, 136, 242, 0.3)',
+  //               borderColor: 'rgba(91, 136, 242, 0.75)',
+  //               pointBackgroundColor: 'rgba(255, 255, 255, 0.99)',
+  //               pointBorderWidth: 2,
+  //               pointHoverRadius: 4,
+  //               pointHoverBackgroundColor: 'rgba(91, 136, 242,, 1)',
+  //               pointHoverBorderColor: 'rgba(91, 136, 242, .4)',
+  //               pointHoverBorderWidth: 2,
+  //               pointRadius: 4,
+  //               pointHitRadius: 10,
+  //               spanGaps: false,
+  //               lineTension: 0,
+  //           }],
+  //       },
 
-       options: options
+  //      options: options
 
-    });
-  }
-  /* End of Total Assets Value Chart */
+  //   });
+  // }
+  // /* End of Total Assets Value Chart */
 
   /* 4-in-1 Value Chart */
   if ($('#fourInOneChart').length !== 0) {
