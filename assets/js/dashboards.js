@@ -1,35 +1,5 @@
 $(function() {
 
-  // https://stackoverflow.com/questions/47924780/like-icon-colour-on-click
-  /* when a user clicks, toggle the 'is-animating' class */
-  $(".heart").on('click touchstart', function() {
-      $(this).toggleClass('is_animating');
-      $(this).toggleClass('liked');
-  });
-
-  /*when the animation is over, remove the class*/
-  $(".heart").on('animationend', function() {
-      $(this).toggleClass('is_animating');
-  });
-
-  // Adjust MyTodos header border visibility on icon-add click
-  $('#collapseTodos').on('show.bs.collapse', function () {
-    $('#todosHeader').addClass('border-0');
-  })
-
-  $('#collapseTodos').on('hide.bs.collapse', function () {
-    $('#todosHeader').removeClass('border-0');
-  })
-
-
-// Drag&Drop
-
-  dragula(Array.prototype.slice.call(document.querySelectorAll('.task-list')), {
-    moves: function (el, container, handle) {
-      return handle.classList.contains('task-list-handle');
-    }
-  });
-
 // Wrap charts
   $('.chartjs-wrap').each(function() {
     $(this).wrap($('<div style="height:' + this.getAttribute('height') + 'px"></div>'));
@@ -101,23 +71,25 @@ $(function() {
 
     // Local API endpoint
     // const api_url = 'http://localhost:3000/monthly';
-    const api_url = 'https://monthly-data-server.glitch.me/monthly';
+    // const api_url = 'https://monthly-data-server.glitch.me/monthly';
+    const api_url = 'https://monthly-data-combo.glitch.me/monthly';
     async function getData() {
       const response = await fetch(api_url);
       const api_data = await response.json();
-      // api_data :
-      // {"labels":["January","February","March","April","May","June"],
-      // "datasets":[{"data":[226043,220000,250000,160000,210000,219000]}]}
-      graphChart.data.datasets[0].data = api_data.datasets[0].data;
-      graphChart.data.labels = api_data.labels;
 
-      console.table([data.labels, data.datasets[0].data]);
+      graphChart.data.datasets[0].data = api_data.missingAssets.datasets[0].data;
+      graphChart.data.labels = api_data.missingAssets.labels;
+
+      accurateChart.data.datasets[0].data = api_data.accurateAssets.datasets[0].data;
+      accurateChart.data.labels = api_data.accurateAssets.labels;
+
+      // console.table([data.labels, data.datasets[0].data]);
 
       // Outputing pretty JSON-style :
       console.log(JSON.stringify(api_data, undefined, 2));
+      // console.log(accurateChart.data);
 
-      // Outputing compact JSON-style :
-      // console.log(JSON.stringify(api_data));
+      // Outputing compact JSON-style :  // console.log(JSON.stringify(api_data));
       return api_data;
     }
 
@@ -127,7 +99,8 @@ $(function() {
         });
 
       graphChart.update();
-    }, 30000);
+      accurateChart.update();
+    }, 3000);
   }
 
   /* Accurate Assets Value Chart */
@@ -135,10 +108,10 @@ $(function() {
     var accurateChart = new Chart(document.getElementById('accurate-graph').getContext("2d"), {
         type: 'line',
         data: {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+            labels: ['xJanuary', 'xFebruary', 'xMarch', 'April', 'May', 'June'],
             datasets: [{
                 label: 'Accurate value',
-                data: [226043, 220000, 250000, 160000, 210000, 219000],
+                data: [9226043, 9220000, 9250000, 160000, 210000, 219000],
                 borderWidth: 2,
                 backgroundColor: 'rgba(0, 230, 118, 0.3)',
                 borderColor: 'rgba(0, 230, 118, 0.75)',
@@ -155,28 +128,7 @@ $(function() {
             }],
         },
 
-        options: {
-            animation: false,
-            legend: { display: false },
-            maintainAspectRatio: false,
-            responsive: true,
-            responsiveAnimationDuration: 0,
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        padding: 5,
-                        callback: function(value, index, values) {
-                            if (parseInt(value) >= 1000) {
-                                return '$' + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                            } else {
-                                return '$' + value;
-                            }
-                        }
-                    }
-                }]
-            }
-        }
+        options: options
     });
   }
   /* End of Accurate Assets Value Chart */
@@ -349,4 +301,61 @@ $(function() {
     });
   }
   /* End of 4-in-1 Value Chart */
+    // https://stackoverflow.com/questions/47924780/like-icon-colour-on-click
+  /* when a user clicks, toggle the 'is-animating' class */
+  $(".heart").on('click touchstart', function() {
+      $(this).toggleClass('is_animating');
+      $(this).toggleClass('liked');
+  });
+
+  /*when the animation is over, remove the class*/
+  $(".heart").on('animationend', function() {
+      $(this).toggleClass('is_animating');
+  });
+
+  // Adjust MyTodos header border visibility on icon-add click
+  $('#collapseTodos').on('show.bs.collapse', function () {
+    $('#todosHeader').addClass('border-0');
+  })
+
+  $('#collapseTodos').on('hide.bs.collapse', function () {
+    $('#todosHeader').removeClass('border-0');
+  })
+
+
+// Drag&Drop
+
+  dragula(Array.prototype.slice.call(document.querySelectorAll('.task-list')), {
+    moves: function (el, container, handle) {
+      return handle.classList.contains('task-list-handle');
+    }
+  });  // https://stackoverflow.com/questions/47924780/like-icon-colour-on-click
+  /* when a user clicks, toggle the 'is-animating' class */
+  $(".heart").on('click touchstart', function() {
+      $(this).toggleClass('is_animating');
+      $(this).toggleClass('liked');
+  });
+
+  /*when the animation is over, remove the class*/
+  $(".heart").on('animationend', function() {
+      $(this).toggleClass('is_animating');
+  });
+
+  // Adjust MyTodos header border visibility on icon-add click
+  $('#collapseTodos').on('show.bs.collapse', function () {
+    $('#todosHeader').addClass('border-0');
+  })
+
+  $('#collapseTodos').on('hide.bs.collapse', function () {
+    $('#todosHeader').removeClass('border-0');
+  })
+
+
+// Drag&Drop
+
+  dragula(Array.prototype.slice.call(document.querySelectorAll('.task-list')), {
+    moves: function (el, container, handle) {
+      return handle.classList.contains('task-list-handle');
+    }
+  });
 });
