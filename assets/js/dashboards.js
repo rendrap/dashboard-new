@@ -9,10 +9,12 @@ $(function() {
     var ctx = document.getElementById('missing-graph').getContext("2d");
 
     var data = {
-      labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+      labels: [],
+      // labels: ['January', 'February', 'March', 'April', 'May', 'June'],
       datasets: [{
         label:           'Missing assets value',
-        data:            [226043, 220000, 250000, 160000, 210000, 219000],
+        data:            [0,0,0,0,0,0],
+        // data:            [226043, 220000, 250000, 160000, 210000, 219000], // Hard coded data for demo purpose (without fetching from API)
         borderWidth: 2,
         backgroundColor: 'rgba(233, 30, 99, 0.3)',
         borderColor:     '#E91E63',
@@ -30,7 +32,8 @@ $(function() {
     };
 
     var options = {
-      animation: false,
+      // animation: false,
+      animation:  { duration: 2000 },
       legend: {display: false},
       maintainAspectRatio: false,
       responsive: true,
@@ -60,6 +63,11 @@ $(function() {
 
     function resizeCharts() {
       graphChart.resize();
+    }
+
+    function updateAllCharts() {
+      graphChart.update();
+      accurateChart.update();
     }
 
     // Initial resize
@@ -93,13 +101,20 @@ $(function() {
       return api_data;
     }
 
+    // Getting data on document load, then update the charts
+    getData()
+    .then(() => {
+        updateAllCharts();
+      })
+    .catch(err => { console.log("Unable to get initial date from server", err) });
+
+    // Getting data after setInterval value & repeat periodically
     setInterval(function() {
       getData().catch(err => {
           console.log("Unable to get chart data from server", err);
         });
 
-      graphChart.update();
-      accurateChart.update();
+      updateAllCharts();
     }, 3000);
   }
 
@@ -108,10 +123,12 @@ $(function() {
     var accurateChart = new Chart(document.getElementById('accurate-graph').getContext("2d"), {
         type: 'line',
         data: {
-            labels: ['xJanuary', 'xFebruary', 'xMarch', 'April', 'May', 'June'],
+            labels: [],
+            // labels: ['xJanuary', 'xFebruary', 'xMarch', 'April', 'May', 'June'],
             datasets: [{
                 label: 'Accurate value',
-                data: [9226043, 9220000, 9250000, 160000, 210000, 219000],
+                data: [0,0,0,0,0,0],
+                // data: [9226043, 9220000, 9250000, 160000, 210000, 219000],
                 borderWidth: 2,
                 backgroundColor: 'rgba(0, 230, 118, 0.3)',
                 borderColor: 'rgba(0, 230, 118, 0.75)',
