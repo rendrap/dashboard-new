@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" class="default-style layout-fixed layout-collapsed">
-
   {%- include head.html -%}
-
   <body>
-    {{ content }}
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-2">
+      <div class="layout-inner">
+        <!-- Layout sidenav -->
+        {%- include sidenav.html  -%}
+        <!-- / Layout sidenav -->
+        <!-- Layout container -->
+        <div class="layout-container">
+          <!-- Layout navbar -->
+          {%- include navbar.html  -%}
+          <!-- / Layout navbar -->
+          <!-- Layout content -->
+          <div class="layout-content">
+            <!-- Content -->
+            {{ content }}
+            <!-- / Content -->
+          <!-- Layout content -->
+          </div>
+          <!-- / Layout container -->
+        </div>
+        <!-- Overlay, on mobile layout -->
+        <div class="layout-overlay layout-sidenav-toggle"></div>
+      </div>
+    </div>
+    <!-- / Layout wrapper -->
+    <!-- Core scripts -->
+    <script src="assets/vendor/libs/popper/popper.js"></script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="assets/vendor/js/sidenav.js"></script>
+    <!-- Libs (note: chart.js v2.8.0) -->
+    <!-- <script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script> -->
+    <script src="assets/vendor/libs/chartjs/chartjs.js"></script>
+    <script src="assets/vendor/libs/dragula/dragula.js"></script>
+    <!-- Demo -->
+    <script src="assets/js/demo.js"></script>
+    <script src="assets/js/dashboards.js"></script>
   </body>
-
 </html>
