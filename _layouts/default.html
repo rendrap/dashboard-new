@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" class="default-style layout-fixed layout-collapsed">
+<html lang="en" class="default-style" dir="ltr">
   {%- include head.html -%}
   <body>
     <!-- Layout wrapper -->
-    <div class="layout-wrapper layout-2">
+    <div class="layout-wrapper layout-1 layout-without-sidenav">
       <div class="layout-inner">
-        <!-- Layout sidenav -->
-        {%- include sidenav.html  -%}
-        <!-- / Layout sidenav -->
+        <!-- Layout navbar -->
+        {%- include navbar.html  -%}
+        <!-- / Layout navbar -->
         <!-- Layout container -->
         <div class="layout-container">
-          <!-- Layout navbar -->
-          {%- include navbar.html  -%}
-          <!-- / Layout navbar -->
           <!-- Layout content -->
           <div class="layout-content">
             <!-- Content -->
             {{ content }}
             <!-- / Content -->
           <!-- Layout content -->
+            <!-- Layout footer -->
+            {%- include footer.html  -%}
+            <!-- / Layout footer -->
           </div>
           <!-- / Layout container -->
         </div>
