@@ -6,4 +6,4 @@ _site
 .sass-cache
 .jekyll-metadata
 bin/
-.Gemfile.lock
+Gemfile.lock
