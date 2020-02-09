@@ -1,2 +1,7 @@
 lib
 node_modules/
+
+#Jekyll related files
+_site
+.sass-cache
+.jekyll-metadata
