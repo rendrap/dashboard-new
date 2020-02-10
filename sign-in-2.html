@@ -1,0 +1,46 @@
+---
+layout: default
+permalink : /sign-in-2/
+---
+<div class="container flex-grow-1 sign-in">
+  <div class="row h-100">
+    <div class="right-side-white d-none d-sm-block">
+    </div>
+
+    <div class="col-sm">
+      <div class="container">
+        <div class="col m12">
+          <h2 class="heading">Complete sign up</h2>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col s12 m12 l12">
+          <form name="register" novalidate="" class="ng-pristine ng-invalid ng-touched">
+            <div class="row">
+              <div class="col s12 m12 l6"><label for="first_name">First Name</label><input autocomplete="off" class="textfield first-name-textfield ng-untouched ng-pristine ng-invalid" id="first_name" name="first_name" required="" type="text"><span class="first-name-icon"></span>
+              </div>
+              <div class="col s12 m12 l6"><label for="last_name">Last Name</label><input autocomplete="off" class="textfield last-name-textfield ng-untouched ng-pristine ng-invalid" id="last_name" name="last_name" required="" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12">
+                <div class="full"><label class="label" for="username">Username</label><input autocomplete="off" class="textfield username-textfield ng-pristine ng-invalid ng-touched" id="username" name="username" required="" type="text">
+                  <small class="error register-fields-error"> Username required </small></div>
+              </div>
+            </div>
+            <div class="col s12">
+              <div class="full" style="font-size: 12px;color: rgb(140,140,140);"><input id="licence" name="agreeLicence" required="" type="checkbox" class="ng-untouched ng-pristine ng-valid"><label for="licence">By creating an account on Task Pigeon you agree to the following <a href="https://taskpigeon.co/user-licence-agreement" style="color: rgb(100, 10, 165);" target="_blank">licence agreement</a></label></div>
+            </div>
+            <div class="col s12"><button class="waves-effect waves-light btn-large disabled" type="submit" disabled="">NEXT </button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm bg-white">
+      <div class="center">
+        <div class="main-image-container"><img class="mx-auto d-block" src="{{ "assets/img/Task_Pigeon_Three_Dashboard_Overview_New.gif" | relative_url }}"></div>
+      </div>
+    </div>
+
+  </div>
+</div>

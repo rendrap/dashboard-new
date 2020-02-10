@@ -1463,3 +1463,19 @@ margin-bottom: 1rem !important;
 .py-6px {
     padding: 6px;
 }
+
+.sign-in {
+    .main-image-container img {
+        width: 95%;
+    }
+}
+
+.right-side-white {
+    width: 35%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: #fff;
+    z-index:-1;
+}
