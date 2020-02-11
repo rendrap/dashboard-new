@@ -6,7 +6,11 @@
     <div class="layout-wrapper layout-1 layout-without-sidenav">
       <div class="layout-inner">
         <!-- Layout navbar -->
+        {% if page.navbar == 'navbar-2' %}
+        {%- include navbar-2.html  -%}
+        {% else %}
         {%- include navbar.html  -%}
+        {% endif %}
         <!-- / Layout navbar -->
         <!-- Layout container -->
         <div class="layout-container">
