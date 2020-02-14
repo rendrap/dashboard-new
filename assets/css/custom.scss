@@ -1505,3 +1505,11 @@ margin-bottom: 1rem !important;
 .mt-5rem {
     margin-top: 5rem !important;
 }
+
+// Target all button & input inside sign-in form
+// and make them round
+.sign-in form {
+    input, button {
+        border-radius: 60rem !important;
+    }
+}
