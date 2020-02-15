@@ -1531,7 +1531,12 @@ margin-bottom: 1rem !important;
         box-sizing: content-box;
         -webkit-transition: .3s;
         transition: .3s;
+        &:focus {
+            border-bottom: 1px solid #2c66ee!important;
+            box-shadow: none!important;
+        }
     }
+
     .invitation .email-input:last-of-type {
         margin-bottom: 1.5rem;
     }
