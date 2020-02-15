@@ -1510,6 +1510,29 @@ margin-bottom: 1rem !important;
 // and make them round
 .sign-in form {
     input, button {
-        border-radius: 60rem !important;
+        border-radius: 60rem;
+    }
+    .add-invite, .skip-for-now {
+        color: #640aa5;
+        cursor: pointer;
+    }
+    .invitation input[type=email] {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #9e9e9e;
+        border-radius: 0;
+        outline: 0;
+        height: 3rem;
+        width: 100%;
+        font-size: 1rem;
+        margin: 0 0 20px;
+        padding: 0;
+        box-shadow: none;
+        box-sizing: content-box;
+        -webkit-transition: .3s;
+        transition: .3s;
+    }
+    .invitation .email-input:last-of-type {
+        margin-bottom: 1.5rem;
     }
 }
