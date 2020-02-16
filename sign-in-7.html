@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink : /sign-in-6/
+permalink : /sign-in-7/
 navbar: navbar-2
 ---
 <div class="authentication-wrapper authentication mt-5rem px-4 sign-in">
@@ -37,27 +37,31 @@ navbar: navbar-2
     </div>
     <!-- Modal -->
     <div class="modal fade" id="modals-default" style="display: none;" aria-hidden="true">
-      <div class="modal-dialog">
-        <form class="modal-content">
-
-          <div class="modal-header text-center">
-            <!-- sa-icon -->
-            <div class="sa mx-auto">
-              <div class="sa-success">
-                <div class="sa-success-tip"></div>
-                <div class="sa-success-long"></div>
-                <div class="sa-success-placeholder"></div>
-                <div class="sa-success-fix"></div>
-              </div>
-            </div>
-            <!-- / sa-icon -->
-            <p class="text-muted">Invitation sent!</p>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+      <div class="sweet-alert  showSweetAlert visible"  style="display: block; margin-top: -171px;">
+        <div class="sa-icon sa-error">
+          <span class="sa-x-mark">
+            <span class="sa-line sa-left"></span>
+            <span class="sa-line sa-right"></span>
+          </span>
+        </div>
+        <div class="sa-icon sa-warning">
+          <span class="sa-body"></span>
+          <span class="sa-dot"></span>
+        </div>
+        <div class="sa-icon sa-info"></div>
+        <div class="sa-icon sa-success animate">
+          <span class="sa-line sa-tip animateSuccessTip"></span>
+          <span class="sa-line sa-long animateSuccessLong"></span>
+          <div class="sa-placeholder"></div>
+          <div class="sa-fix"></div>
+        </div>
+        <div class="sa-icon sa-custom"></div>
+        <p class="lead" style="display: block;">Invitations sent!</p>
+        <div class="sa-button-container">
+          <div class="sa-confirm-button-container">
+            <button class="confirm btn btn-lg btn-success" data-dismiss="modal">OK</button>
           </div>
-          <div class="modal-invite-footer">
-            <button type="button" class="btn btn-primary btn-default" data-dismiss="modal">OK</button>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
     <!-- Modal End -->
